@@ -1,0 +1,9 @@
+C:\Users\Alan\Documents\GitHub\iTunes Android Sync\iTunes Android Sync\bin\Debug\iTunes Android Sync.exe.config
+C:\Users\Alan\Documents\GitHub\iTunes Android Sync\iTunes Android Sync\bin\Debug\iTunes Android Sync.exe
+C:\Users\Alan\Documents\GitHub\iTunes Android Sync\iTunes Android Sync\bin\Debug\iTunes Android Sync.pdb
+C:\Users\Alan\Documents\GitHub\iTunes Android Sync\iTunes Android Sync\obj\Debug\iTunes Android Sync.csprojResolveAssemblyReference.cache
+C:\Users\Alan\Documents\GitHub\iTunes Android Sync\iTunes Android Sync\obj\Debug\iTunes_Android_Sync.Properties.Resources.resources
+C:\Users\Alan\Documents\GitHub\iTunes Android Sync\iTunes Android Sync\obj\Debug\iTunes Android Sync.csproj.GenerateResource.Cache
+C:\Users\Alan\Documents\GitHub\iTunes Android Sync\iTunes Android Sync\obj\Debug\iTunes Android Sync.exe
+C:\Users\Alan\Documents\GitHub\iTunes Android Sync\iTunes Android Sync\obj\Debug\iTunes Android Sync.pdb
+C:\Users\Alan\Documents\GitHub\iTunes Android Sync\iTunes Android Sync\obj\Debug\iTunes_Android_Sync.MainWindow.resources
