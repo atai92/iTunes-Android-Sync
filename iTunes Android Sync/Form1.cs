@@ -6,7 +6,6 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Threading;
 using System.Windows.Forms;
 
 namespace iTunes_Android_Sync
@@ -29,18 +28,9 @@ namespace iTunes_Android_Sync
         List<string> filesNeeded = new List<string>();
         List<string> filesUnneeded = new List<string>();
 
-        private System.ComponentModel.BackgroundWorker backgroundWorker1 = new BackgroundWorker();
-
         public MainWindow()
         {
             InitializeComponent();
-
-            backgroundWorker1.WorkerSupportsCancellation = true;
-            backgroundWorker1.WorkerReportsProgress = false;
-            backgroundWorker1.DoWork += new DoWorkEventHandler(backgroundWorker1_DoWork);
-            backgroundWorker1.RunWorkerCompleted += new RunWorkerCompletedEventHandler(backgroundWorker1_RunWorkerCompleted);
-            AndroidSyncDirectory.Text = "/sdcard/Music/";
-            PCSyncDirectory.Text = "C:/Users/Alan/Music/";
         }
 
         public void reset()
@@ -48,7 +38,7 @@ namespace iTunes_Android_Sync
             //Window display only allows a set amount of characters to be written. When sync'ing again, clear screen to allow for cleaner viewing.
             console.Clear();
             //Reset progress bar.
-            IncreaseProgress(progressBar, -100);
+            progressBar.Increment(-100);
             filesNeeded.Clear();
             filesUnneeded.Clear();
         }
@@ -56,31 +46,16 @@ namespace iTunes_Android_Sync
         private void button1_Click(object sender, EventArgs e)
         {
             reset();
+            //Log action into console.
+            console.AppendText("Commencing forward sync.\nYour computer files will now be sync'ed onto your Android device.\n\n");
+            progressBar.Increment(2);
 
-            //Make sure a valid Android device is connected.
-            if (droidConnected())
-            {
-                //Log action into console.
-                AddText(console, "Commencing forward sync.\nYour computer files will now be sync'ed onto your Android device.\n\n");
-                IncreaseProgress(progressBar, 2);
+            //While running, disable all sync buttons.
+            fSync_button.Enabled = false; bSync_button.Enabled = false;
 
-                //While running, disable all sync buttons.
-                fSync_button.Enabled = false; bSync_button.Enabled = false;
-
-                if (!backgroundWorker1.IsBusy)
-                {
-                    backgroundWorker1.RunWorkerAsync();
-                }
-            }
-        }
-
-        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
-        {
-            BackgroundWorker worker = sender as BackgroundWorker;
             //Check if playlists are to be sync'ed as well.
-            if (syncPlaylists_checkbox.Checked == true)
-            {
-                AddText(console, "Creating playlists from iTunes library.");
+            if (syncPlaylists_checkbox.Checked == true) {
+                console.AppendText("Creating playlists from iTunes library.");
                 //Create playlist from iTunes XML file ("iTunes Music Library.xml").
             }
 
@@ -88,73 +63,28 @@ namespace iTunes_Android_Sync
             {
                 //Create list of files in local and remote directories
                 if (cmd("dir \"" + PC + "\" /s/b > srclist.txt") == 0) throw new System.Exception();
-                IncreaseProgress(progressBar, 4);
+                progressBar.Increment(4);
                 if (cmd("adb shell find " + Android + " -type f -print > destlist.txt") == 0) throw new System.Exception();
-                IncreaseProgress(progressBar, 4);
+                progressBar.Increment(4);
 
                 //Compare src and dest to get files needed to be added/removed
                 diff("srclist.txt", "destlist.txt");
-                IncreaseProgress(progressBar, 10);
+                progressBar.Increment(10);
 
-                AddText(console, "\nActions needed to be taken: \n");
-                AddText(console, filesNeeded.Count + " number of files needed to be added.\n");
-                AddText(console, filesUnneeded.Count + " number of files needed to be removed.\n\n");
+                console.AppendText("\nActions needed to be taken: \n");
+                console.AppendText(filesNeeded.Count + " number of files needed to be added.\n");
+                console.AppendText(filesUnneeded.Count + " number of files needed to be removed.\n");
 
                 addFiles(true);
                 removeFiles(true);
             }
             catch (Exception objException)
             {
-                AddText(console, "\n" + objException.ToString() + "\n");
-            }
-        }
-
-        private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
-        {
-            if ((e.Cancelled == true))
-            {
-                AddText(console, "Cancelled!");
+                console.AppendText("\n" + objException.ToString() + "\n");
             }
 
-            else if (!(e.Error == null))
-            {
-                AddText(console, "Error: " + e.Error.Message);
-            }
-
-            else
-            {
-                AddText(console, "Sync done!");
-                //Re-enable buttons after task is done.
-                fSync_button.Enabled = true; //bSync_button.Enabled = true;
-            }
-        }
-
-        public delegate void ControlStringConsumer(RichTextBox control, string text);
-
-        public void AddText(RichTextBox control, string text)
-        {
-            if (control.InvokeRequired)
-            {
-                control.Invoke(new ControlStringConsumer(AddText), new object[] { control, text });  // invoking itself
-            }
-            else
-            {
-                control.AppendText(text);      // the "functional part", executing only on the main thread
-            }
-        }
-
-        public delegate void ControlProgressBar(ProgressBar control, int increment);
-
-        public void IncreaseProgress(ProgressBar control, int increment)
-        {
-            if (control.InvokeRequired)
-            {
-                control.Invoke(new ControlProgressBar(IncreaseProgress), new object[] { control, increment });
-            }
-            else
-            {
-                control.Increment(increment);
-            }
+            //Re-enable buttons after task is done.
+            fSync_button.Enabled = true; //bSync_button.Enabled = true;
         }
 
         private void progressBar1_Click(object sender, EventArgs e)
@@ -167,8 +97,8 @@ namespace iTunes_Android_Sync
             reset();
 
             //Log action into console.
-            AddText(console, "Commencing backward sync.\nYour Android files will now be sync'ed onto your computer.\n\n");
-            IncreaseProgress(progressBar, 1);
+            console.AppendText("Commencing backward sync.\nYour Android files will now be sync'ed onto your computer.\n\n");
+            progressBar.Increment(1);
 
             //While running, disable all sync buttons.
             fSync_button.Enabled = false; bSync_button.Enabled = false;
@@ -187,12 +117,48 @@ namespace iTunes_Android_Sync
 
         }
 
+        public int bat(string file)
+        {
+            try
+            {
+                console.AppendText("Running command batch file " + file + "\n");
+                // create the ProcessStartInfo using "cmd" as the program to be run,
+                // and "/c " as the parameters.
+                // Incidentally, /c tells cmd that we want it to execute the command that follows,
+                // and then exit.
+                System.Diagnostics.ProcessStartInfo procStartInfo = new System.Diagnostics.ProcessStartInfo(file);
+
+                // The following commands are needed to redirect the standard output.
+                // This means that it will be redirected to the Process.StandardOutput StreamReader.
+                procStartInfo.RedirectStandardOutput = true;
+                procStartInfo.UseShellExecute = false;
+                // Do not create the black window.
+                procStartInfo.CreateNoWindow = false;
+                // Now we create a process, assign its ProcessStartInfo and start it
+                System.Diagnostics.Process proc = new System.Diagnostics.Process();
+                proc.StartInfo = procStartInfo;
+                proc.Start();
+                proc.WaitForExit();
+                // Get the output into a string
+                string result = proc.StandardOutput.ReadToEnd();
+                // Display the command output.
+                if (result.Length > 1) console.AppendText(result + "\n");
+            }
+            catch (Exception objException)
+            {
+                // Log the exception
+                console.AppendText("Error running file \"" + file + "\" with exception " + objException + "\n");
+                return 0;
+            }
+
+            return 1;
+        }
+
         public int cmd(object command)
         {
             try
             {
-                if ((command.ToString()).IndexOf("devices") == -1) AddText(console, "Running cmd command \"" + command + "\"\n");
-
+                console.AppendText("Running command '" + command + "'\n");
                 // create the ProcessStartInfo using "cmd" as the program to be run,
                 // and "/c " as the parameters.
                 // Incidentally, /c tells cmd that we want it to execute the command that follows,
@@ -213,22 +179,12 @@ namespace iTunes_Android_Sync
                 // Get the output into a string
                 string result = proc.StandardOutput.ReadToEnd();
                 // Display the command output.
-                if (command.ToString().IndexOf("rm") > -1 && result.Length > 1)
-                { 
-                    if (result.IndexOf("/system") > -1)
-                    {
-                        AddText(console, "Failed to remove a file. Sorry for the inconvenience.\nTo remove this file, you will have to manually navigate and delete the file.\n\n");
-                    }
-                }   
-                else
-                {
-                    if (result.Length > 1) AddText(console, result + "\n");
-                }
+                if (result.Length > 1) console.AppendText(result + "\n");
             }
             catch (Exception objException)
             {
                 // Log the exception
-                AddText(console, "Error running command \"" + command + "\" with exception " + objException + "\n");
+                console.AppendText("Error running command \"" + command + "\" with exception " + objException + "\n");
                 return 0;
             }
 
@@ -285,35 +241,6 @@ namespace iTunes_Android_Sync
             src_file.Close(); dest_file.Close();
         }
 
-        public Boolean droidConnected()
-        {
-            AddText(console, "Verifying device is connected. . .\n");
-            //Output devices list to a text file because the output cannot be redirected into this form.
-            cmd("adb devices > devices.txt");
-            System.IO.StreamReader deviceslist = new System.IO.StreamReader("devices.txt");
-
-            //First line is always the same and is garbage.
-            string device = deviceslist.ReadLine();
-
-            //Second line shows first device. This is the device that will accept the ADB commands.
-            //If the line is null then there are no devices at all.
-            if ((device = deviceslist.ReadLine()) == null || device.Length < 3)
-            {
-                AddText(console, "\nError!: No connected devices detected.\nPlease make sure you have ADB drivers installed.\nAlso make sure USB debugging is enabled on your Android device.\n\n");
-                return false;
-            }
-
-            //We do not want any emulators to be here either!
-            if (device.IndexOf("emu") > -1)
-            {
-                AddText(console, "\nError!: There seems to be an emulator device connected.\nPlease disconnect the emulator to sync with your Android device.\n\n");
-                return false;
-            }
-
-            AddText(console, "Device present!\n");
-            return true;
-        }
-
         public void addFiles(Boolean toAndroid)
         {
             if (toAndroid)
@@ -321,11 +248,11 @@ namespace iTunes_Android_Sync
                 System.IO.StreamWriter addFiles_bat = new System.IO.StreamWriter("addFiles.bat");
                 foreach (string element in filesNeeded)
                 {
-                    //AddText(console, "adb push " + element + " " + Android + element.Substring(PC.Length) + "\n");
+                    //console.AppendText("adb push " + element + " " + Android + element.Substring(PC.Length) + "\n");
                     cmd(("adb push \"" + PC + element + "\" \"" + Android + element + "\"").Replace("\\","/"));
                     addFiles_bat.WriteLine(("adb push \"" + PC + element + "\" \"" + Android + element + "\"").Replace("\\", "/") + "\n");
                 }
-                IncreaseProgress(progressBar, 60);
+                progressBar.Increment(60);
                 addFiles_bat.Close();
                 //bat("addFiles.bat");
             }
@@ -342,11 +269,11 @@ namespace iTunes_Android_Sync
                 System.IO.StreamWriter rmFiles_bat = new System.IO.StreamWriter("rmFiles.bat");
                 foreach (string element in filesUnneeded)
                 {
-                    //AddText(console, "adb shell rm -f " + element + "\n");
+                    //console.AppendText("adb shell rm -f " + element + "\n");
                     cmd(("adb shell rm -f \"" + element + "\"")); //.Replace("\\","/")
                     rmFiles_bat.WriteLine(("adb shell rm -f \"" + element + "\"") + "\n");
                 }
-                IncreaseProgress(progressBar, 20);
+                progressBar.Increment(20);
                 rmFiles_bat.Close();
             }
             else
@@ -370,21 +297,6 @@ namespace iTunes_Android_Sync
                 }
             }
             return false;
-        }
-
-        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
