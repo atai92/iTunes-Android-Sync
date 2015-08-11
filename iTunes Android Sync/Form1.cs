@@ -14,10 +14,10 @@ namespace iTunes_Android_Sync
     public partial class MainWindow : Form
     {
         //Directory of iTunes music folder to sync to/from.
-        string PC = "C:/Users/Alan/Music/";
+        string PC;
 
         //Directory of Android music folder to sync to/from.
-        string Android = "/sdcard/Music/";
+        string Android;
 
         //File formats allowed to be synced across.
         string[] syncableFormats = 
@@ -30,6 +30,7 @@ namespace iTunes_Android_Sync
         List<string> filesUnneeded = new List<string>();
 
         private System.ComponentModel.BackgroundWorker backgroundWorker1 = new BackgroundWorker();
+        config cfg = new config();
 
         public MainWindow()
         {
@@ -39,8 +40,32 @@ namespace iTunes_Android_Sync
             backgroundWorker1.WorkerReportsProgress = false;
             backgroundWorker1.DoWork += new DoWorkEventHandler(backgroundWorker1_DoWork);
             backgroundWorker1.RunWorkerCompleted += new RunWorkerCompletedEventHandler(backgroundWorker1_RunWorkerCompleted);
-            AndroidSyncDirectory.Text = "/sdcard/Music/";
-            PCSyncDirectory.Text = "C:/Users/Alan/Music/";
+
+            AddText(console, "Looking for config file. . .\n");
+            
+            if (cfg.Exists())
+            {
+                AddText(console, "Config file found.\nLoading config file. . . NOTE: Config file saves every time you sync!\n\n");
+
+                param parameters = cfg.getParam();
+                string[] paths = new string[2];
+                paths = parameters.getPaths();
+                PC = paths[0];
+                PCSyncDirectory.Text = PC;
+                Android = paths[1];
+                AndroidSyncDirectory.Text = Android;
+
+                Boolean[] checkboxes = new Boolean[2];
+                checkboxes = parameters.getCheckboxes();
+                cleanSync_checkbox.Checked = checkboxes[0];
+                syncPlaylists_checkbox.Checked = checkboxes[1];
+            }
+            else
+            {
+                AddText(console, "Config file not found.\nLoading default parameters.\n");
+                AndroidSyncDirectory.Text = "/sdcard/Music/";
+                PCSyncDirectory.Text = "C:/Users/USERNAMEHERE/Music/";
+            }
         }
 
         public void reset()
@@ -51,6 +76,10 @@ namespace iTunes_Android_Sync
             IncreaseProgress(progressBar, -100);
             filesNeeded.Clear();
             filesUnneeded.Clear();
+            PC = PCSyncDirectory.Text;
+            Android = AndroidSyncDirectory.Text;
+            cfg.save(PC, Android, cleanSync_checkbox.Checked, syncPlaylists_checkbox.Checked);
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -383,6 +412,26 @@ namespace iTunes_Android_Sync
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+          
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void PCSyncDirectory_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void thisDoesNotSafeWfkwenFjewnFkjewnkfnewkjfewToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }

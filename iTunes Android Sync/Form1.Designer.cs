@@ -34,13 +34,15 @@
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.console = new System.Windows.Forms.RichTextBox();
+            this.AndroidSyncDirectory = new System.Windows.Forms.TextBox();
             this.syncPlaylists_checkbox = new System.Windows.Forms.CheckBox();
             this.cleanSync_checkbox = new System.Windows.Forms.CheckBox();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.PCSyncDirectory = new System.Windows.Forms.TextBox();
-            this.AndroidSyncDirectory = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.navigateDirectory = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // fSync_button
@@ -101,6 +103,17 @@
             this.toolTip1.SetToolTip(this.console, "This will show both information and errors regarding the application.");
             this.console.WordWrap = false;
             // 
+            // AndroidSyncDirectory
+            // 
+            this.AndroidSyncDirectory.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AndroidSyncDirectory.Location = new System.Drawing.Point(187, 55);
+            this.AndroidSyncDirectory.Name = "AndroidSyncDirectory";
+            this.AndroidSyncDirectory.Size = new System.Drawing.Size(459, 20);
+            this.AndroidSyncDirectory.TabIndex = 7;
+            this.AndroidSyncDirectory.Text = "/sdcard/Music/";
+            this.toolTip1.SetToolTip(this.AndroidSyncDirectory, "Do not modify unless you know what you\'re doing!");
+            this.AndroidSyncDirectory.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
             // syncPlaylists_checkbox
             // 
             this.syncPlaylists_checkbox.AutoSize = true;
@@ -132,28 +145,18 @@
             // PCSyncDirectory
             // 
             this.PCSyncDirectory.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PCSyncDirectory.Location = new System.Drawing.Point(187, 13);
+            this.PCSyncDirectory.Location = new System.Drawing.Point(187, 16);
             this.PCSyncDirectory.Name = "PCSyncDirectory";
             this.PCSyncDirectory.Size = new System.Drawing.Size(459, 20);
             this.PCSyncDirectory.TabIndex = 6;
             this.PCSyncDirectory.Text = "C:/Users/Alan/Music/";
-            // 
-            // AndroidSyncDirectory
-            // 
-            this.AndroidSyncDirectory.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AndroidSyncDirectory.Location = new System.Drawing.Point(187, 39);
-            this.AndroidSyncDirectory.Name = "AndroidSyncDirectory";
-            this.AndroidSyncDirectory.Size = new System.Drawing.Size(459, 20);
-            this.AndroidSyncDirectory.TabIndex = 7;
-            this.AndroidSyncDirectory.Text = "/sdcard/Music/";
-            this.toolTip1.SetToolTip(this.AndroidSyncDirectory, "Do not modify unless you know what you\'re doing!");
-            this.AndroidSyncDirectory.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.PCSyncDirectory.TextChanged += new System.EventHandler(this.PCSyncDirectory_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Lucida Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.Location = new System.Drawing.Point(13, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(111, 15);
             this.label1.TabIndex = 8;
@@ -164,17 +167,33 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Lucida Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 39);
+            this.label2.Location = new System.Drawing.Point(13, 60);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(144, 15);
             this.label2.TabIndex = 9;
             this.label2.Text = "Android Sync Directory";
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
+            // 
+            // navigateDirectory
+            // 
+            this.navigateDirectory.Location = new System.Drawing.Point(653, 16);
+            this.navigateDirectory.Name = "navigateDirectory";
+            this.navigateDirectory.Size = new System.Drawing.Size(32, 21);
+            this.navigateDirectory.TabIndex = 10;
+            this.navigateDirectory.Text = ">";
+            this.navigateDirectory.UseVisualStyleBackColor = true;
+            this.navigateDirectory.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(816, 373);
+            this.Controls.Add(this.navigateDirectory);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.AndroidSyncDirectory);
@@ -211,6 +230,8 @@
         private System.Windows.Forms.TextBox AndroidSyncDirectory;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button navigateDirectory;
     }
 }
 
