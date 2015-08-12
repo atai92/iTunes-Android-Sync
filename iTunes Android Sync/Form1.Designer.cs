@@ -37,12 +37,13 @@
             this.AndroidSyncDirectory = new System.Windows.Forms.TextBox();
             this.syncPlaylists_checkbox = new System.Windows.Forms.CheckBox();
             this.cleanSync_checkbox = new System.Windows.Forms.CheckBox();
-            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.PCSyncDirectory = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.navigateDirectory = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // fSync_button
@@ -136,11 +137,12 @@
             this.cleanSync_checkbox.Text = "Clean Sync";
             this.cleanSync_checkbox.UseVisualStyleBackColor = true;
             // 
-            // notifyIcon1
+            // notifyIcon
             // 
-            this.notifyIcon1.Text = "notifyIcon1";
-            this.notifyIcon1.Visible = true;
-            this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
+            this.notifyIcon.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.notifyIcon.Text = "Android iTuneSync";
+            this.notifyIcon.Visible = true;
+            this.notifyIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
             // 
             // PCSyncDirectory
             // 
@@ -188,11 +190,22 @@
             this.navigateDirectory.UseVisualStyleBackColor = true;
             this.navigateDirectory.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Lithos Pro Regular", 7F);
+            this.label3.Location = new System.Drawing.Point(703, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(101, 12);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Made by Alan Tai";
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(816, 373);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.navigateDirectory);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -225,13 +238,14 @@
         private System.Windows.Forms.CheckBox syncPlaylists_checkbox;
         private System.Windows.Forms.RichTextBox console;
         private System.Windows.Forms.CheckBox cleanSync_checkbox;
-        private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.NotifyIcon notifyIcon;
         private System.Windows.Forms.TextBox PCSyncDirectory;
         private System.Windows.Forms.TextBox AndroidSyncDirectory;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button navigateDirectory;
+        private System.Windows.Forms.Label label3;
     }
 }
 

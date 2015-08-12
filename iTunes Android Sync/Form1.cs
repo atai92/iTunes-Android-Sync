@@ -26,20 +26,26 @@ namespace iTunes_Android_Sync
             ".m4a", ".mp3", ".mpc", ".msv", ".ogg", ".oga", ".opus", ".ra",
             ".rm", ".raw", ".sln", ".tta", ".vox", ".wav", ".wma", ".wv", ".webm"};
 
+        //Lists of files to be added or removed
         List<string> filesNeeded = new List<string>();
         List<string> filesUnneeded = new List<string>();
 
-        private System.ComponentModel.BackgroundWorker backgroundWorker1 = new BackgroundWorker();
+        //Background worker to do the heavy lifting, so the UI does not get slowed down.
+        private System.ComponentModel.BackgroundWorker forward_backgroundWorker = new BackgroundWorker();
+
+        //Config class to check if config.ini exists, to save configurations to config.ini, and to read the config file.
         config cfg = new config();
+
+        Boolean doWork = false;
 
         public MainWindow()
         {
             InitializeComponent();
 
-            backgroundWorker1.WorkerSupportsCancellation = true;
-            backgroundWorker1.WorkerReportsProgress = false;
-            backgroundWorker1.DoWork += new DoWorkEventHandler(backgroundWorker1_DoWork);
-            backgroundWorker1.RunWorkerCompleted += new RunWorkerCompletedEventHandler(backgroundWorker1_RunWorkerCompleted);
+            forward_backgroundWorker.WorkerSupportsCancellation = true;
+            forward_backgroundWorker.WorkerReportsProgress = false;
+            forward_backgroundWorker.DoWork += new DoWorkEventHandler(forward_backgroundWorker_DoWork);
+            forward_backgroundWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(forward_backgroundWorker_RunWorkerCompleted);
 
             AddText(console, "Looking for config file. . .\n");
             
@@ -86,8 +92,12 @@ namespace iTunes_Android_Sync
         {
             reset();
 
-            //Make sure a valid Android device is connected.
-            if (droidConnected())
+            //Feature testing
+            if (!doWork)
+            {
+
+            }
+            else if (droidConnected()) //Make sure a valid Android device is connected.
             {
                 //Log action into console.
                 AddText(console, "Commencing forward sync.\nYour computer files will now be sync'ed onto your Android device.\n\n");
@@ -96,14 +106,15 @@ namespace iTunes_Android_Sync
                 //While running, disable all sync buttons.
                 fSync_button.Enabled = false; bSync_button.Enabled = false;
 
-                if (!backgroundWorker1.IsBusy)
+                //Make sure background worker isn't busy then run relevant tasks.
+                if (!forward_backgroundWorker.IsBusy)
                 {
-                    backgroundWorker1.RunWorkerAsync();
+                    forward_backgroundWorker.RunWorkerAsync();
                 }
             }
         }
 
-        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        private void forward_backgroundWorker_DoWork(object sender, DoWorkEventArgs e)
         {
             BackgroundWorker worker = sender as BackgroundWorker;
             //Check if playlists are to be sync'ed as well.
@@ -138,7 +149,7 @@ namespace iTunes_Android_Sync
             }
         }
 
-        private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        private void forward_backgroundWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             if ((e.Cancelled == true))
             {
@@ -333,7 +344,7 @@ namespace iTunes_Android_Sync
             }
 
             //We do not want any emulators to be here either!
-            if (device.IndexOf("emu") > -1)
+            if (device.IndexOf("emulator") > -1)
             {
                 AddText(console, "\nError!: There seems to be an emulator device connected.\nPlease disconnect the emulator to sync with your Android device.\n\n");
                 return false;
@@ -427,11 +438,6 @@ namespace iTunes_Android_Sync
         }
 
         private void PCSyncDirectory_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void thisDoesNotSafeWfkwenFjewnFkjewnkfnewkjfewToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
