@@ -3,6 +3,10 @@
 /sdcard/Music/102-dash_berlin_-_man_on_the_run_(with_cerf_mitiska_and_jaren)-atrium.mp3
 /sdcard/Music/11 4 AM (Adam K & Soha Radio Edit) [.mp3
 /sdcard/Music/201-dash_berlin_-_till_the_sky_falls_down_(arctic_remix)-atrium.mp3
+/sdcard/Music/le vocals.m3u
+/sdcard/Music/Music.m3u
+/sdcard/Music/Recently Added.m3u
+/sdcard/Music/slaps.m3u
 /sdcard/Music/Avicii - Levels (Original Mix).mp3
 /sdcard/Music/Avicii feat. Salem Al Fakir - Silhouettes (Vocal Mix).mp3
 /sdcard/Music/Bruno Mars - It Will Rain ( 2o11 ) [ www.MzHipHop.com ].mp3
@@ -530,7 +534,6 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Above and Beyond feat. Richard Bedford/Group Therapy/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Above and Beyond feat. Richard Bedford/Group Therapy/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Adam Szabo & Johan Vilborg/Unknown Album/Two To One (Original Mix).mp3
-/sdcard/Music/iTunes/iTunes Media/Music/Adam Szabo & Johan Vilborg/Unknown Album/xTwo To One (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Adventure Club feat. Yuna/Gold/Gold (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Afrojack & Shermanology/Can't Stop Me/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Afrojack & Shermanology/Can't Stop Me/Folder.jpg
@@ -932,8 +935,8 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Henrik B & Niklas Gustavsson & Peter Joh/Unknown Album/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Henrik B & Niklas Gustavsson & Peter Joh/Unknown Album/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/http___vk.com_ex_energy/Unknown Album/AlbumArtSmall.jpg
-/sdcard/Music/iTunes/iTunes Media/Music/http___vk.com_ex_energy/Unknown Album/Atmosphere (Extended Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/http___vk.com_ex_energy/Unknown Album/Folder.jpg
+/sdcard/Music/iTunes/iTunes Media/Music/http___vk.com_ex_energy/http___vk.com_ex_energy/02 Atmosphere (Extended Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/3LAU feat. Emma Hewitt/Alive Again/Alive Again (Radio Edit).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/SMLE/Reasons To/01 It'll Be Okay (feat. Helen Tess).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/http___www.dfm.ru_/Unknown Album/07 Do Or Die (DFM MIX).mp3
@@ -1648,31 +1651,10 @@
 /sdcard/Music/iTunes/Previous iTunes Libraries/iTunes Library 2013-09-21.itl
 /sdcard/Music/iTunes/Previous iTunes Libraries/iTunes Library 2014-05-18.itl
 /sdcard/Music/iTunes/Previous iTunes Libraries/iTunes Library 2015-06-19.itl
-/sdcard/Music/le vocals.m3u
-/sdcard/Music/slaps.m3u
 /sdcard/Music/Jason Derulo - Be Careful (Prod. By J.R. Rotem) ( 2o11 ) [ www.MzHipHop.com ].mp3
 /sdcard/Music/Jason Derulo - It Girl ( 2o11 ) [ www.MzHipHop.com ].mp3
 /sdcard/Music/Kaskade (feat. Mindy Gledhill) - Eyes.mp3
 /sdcard/Music/Nadia Ali, Starkillers & Alex Kenji - Pressure (Alesso Remix).mp3
 /sdcard/Music/Tiesto - Escape Me feat. CC Sheffield.mp3
 /sdcard/Music/Tiesto Ft. Tegan & Sara - Feel It In My Bones.mp3
-/sdcard/Music/slapsx.m3u
-/sdcard/Music/iTunes\iTunes Media\Music\Arty feat. Fiora/Take Me Away (Grand Finale)/Folder.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\Arty feat. Fiora/Take Me Away (Grand Finale)/desktop.ini
-/sdcard/Music/iTunes\iTunes Media\Music\Arty feat. Fiora/Take Me Away (Grand Finale)/AlbumArt_{7C238F80-405C-470B-A402-79BDBE6B7C1B}_Small.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\Arty feat. Fiora/Take Me Away (Grand Finale)/AlbumArt_{7C238F80-405C-470B-A402-79BDBE6B7C1B}_Large.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\Arty feat. Fiora/Take Me Away (Grand Finale)/AlbumArtSmall.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\Arty feat. Fiora/desktop.ini
-/sdcard/Music/iTunes\iTunes Media\Music\David Guetta/Lovers on the Sun EP/Folder.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\David Guetta/Lovers on the Sun EP/desktop.ini
-/sdcard/Music/iTunes\iTunes Media\Music\David Guetta/Lovers on the Sun EP/AlbumArt_{8660A213-6B09-472C-8C29-6FB08020DD6B}_Small.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\David Guetta/Lovers on the Sun EP/AlbumArt_{8660A213-6B09-472C-8C29-6FB08020DD6B}_Large.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\David Guetta/Lovers on the Sun EP/AlbumArtSmall.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\David Guetta/desktop.ini
-/sdcard/Music/iTunes\iTunes Media\Music\David Guetta & Alesso Feat. Tegan & Sara/Unknown Album/Every Chance We Get We Run.mp3
-/sdcard/Music/iTunes\iTunes Media\Music\http___vk.com_revealedrecordings_wav/Unknown Album/Folder.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\http___vk.com_revealedrecordings_wav/Unknown Album/AlbumArtSmall.jpg
-/sdcard/Music/Music/Adam Szabo & Johan Vilborg/Unknown Album/Two To One (Original Mix).mp3
-/sdcard/Music/Music/David Guetta & Alesso Feat. Tegan & Sara/Unknown Album/Every Chance We Get We Run.mp3
-/sdcard/Music/Music/Honka & Cuebrick/Unknown Album/Alive.mp3
 /sdcard/Music/iTunes\iTunes Media\Music\Honka & Cuebrick\Unknown Album\Alive.mp3

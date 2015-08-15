@@ -13,6 +13,8 @@ namespace iTunes_Android_Sync
 {
     public partial class MainWindow : Form
     {
+        Boolean doWork = true;
+
         //Directory of iTunes music folder to sync to/from.
         string PC;
 
@@ -36,7 +38,8 @@ namespace iTunes_Android_Sync
         //Config class to check if config.ini exists, to save configurations to config.ini, and to read the config file.
         config cfg = new config();
 
-        Boolean doWork = false;
+        //Used to toggle window status.
+        Boolean hidden = false;
 
         public MainWindow()
         {
@@ -51,7 +54,7 @@ namespace iTunes_Android_Sync
             
             if (cfg.Exists())
             {
-                AddText(console, "Config file found.\nLoading config file. . . NOTE: Config file saves every time you sync!\n\n");
+                AddText(console, "Config file found.\nLoading config file. . . NOTE: Config file saves every time you sync!\n");
 
                 param parameters = cfg.getParam();
                 string[] paths = new string[2];
@@ -95,12 +98,12 @@ namespace iTunes_Android_Sync
             //Feature testing
             if (!doWork)
             {
-
+                
             }
             else if (droidConnected()) //Make sure a valid Android device is connected.
             {
                 //Log action into console.
-                AddText(console, "Commencing forward sync.\nYour computer files will now be sync'ed onto your Android device.\n\n");
+                AddText(console, "Commencing forward sync.\nYour computer files will now be sync'ed onto your Android device.\n");
                 IncreaseProgress(progressBar, 2);
 
                 //While running, disable all sync buttons.
@@ -117,35 +120,62 @@ namespace iTunes_Android_Sync
         private void forward_backgroundWorker_DoWork(object sender, DoWorkEventArgs e)
         {
             BackgroundWorker worker = sender as BackgroundWorker;
-            //Check if playlists are to be sync'ed as well.
-            if (syncPlaylists_checkbox.Checked == true)
-            {
-                AddText(console, "Creating playlists from iTunes library.");
-                //Create playlist from iTunes XML file ("iTunes Music Library.xml").
-            }
-
             try
             {
+                //Check if playlists are to be sync'ed as well.
+                if (syncPlaylists_checkbox.Checked == true)
+                {
+                    AddText(console, "Creating playlists from iTunes library.");
+                    //Create playlist from iTunes XML file ("iTunes Music Library.xml").
+                    iTunesLibrary lib = new iTunesLibrary(XMLLibraryFile.Text);
+                    if (lib.Exists())
+                    {
+                        AddText(console, "Parsing iTunes XML Library file.");
+                        lib.read(PC);
+                        List<string[]> Songs = lib.getList();
+                        AddText(console, "Listing track ID's with respective file locations. . .");
+                        foreach (string[] elements in Songs)
+                        {
+                            AddText(console, "Track ID: " + elements[0] + " Location: " + elements[1]);
+                        }
+                        //Create actual files in local folder
+                        List<playlist> Playlists = lib.makePlaylists();
+                        foreach (playlist _playlist in Playlists)
+                        {
+                            if (!_playlist.empty())
+                            {
+                                string file = _playlist.filename();
+                                cmd(("adb -d push \"" + file + "\" \"" + Android + file + "\"").Replace("\\", "/"));
+                            }
+                        }
+                        lib.delete();
+                    }
+                    else
+                    {
+                        AddText(console, "Library file not found!");
+                        throw new Exception("Library file not found.\nPlease enter the correct file and try again!");
+                    }
+                }
                 //Create list of files in local and remote directories
                 if (cmd("dir \"" + PC + "\" /s/b > srclist.txt") == 0) throw new System.Exception();
                 IncreaseProgress(progressBar, 4);
-                if (cmd("adb shell find " + Android + " -type f -print > destlist.txt") == 0) throw new System.Exception();
+                if (cmd("adb -d shell find " + Android + " -type f -print > destlist.txt") == 0) throw new System.Exception();
                 IncreaseProgress(progressBar, 4);
 
                 //Compare src and dest to get files needed to be added/removed
                 diff("srclist.txt", "destlist.txt");
                 IncreaseProgress(progressBar, 10);
 
-                AddText(console, "\nActions needed to be taken: \n");
-                AddText(console, filesNeeded.Count + " number of files needed to be added.\n");
-                AddText(console, filesUnneeded.Count + " number of files needed to be removed.\n\n");
+                AddText(console, "\nActions needed to be taken: ");
+                AddText(console, filesNeeded.Count + " number of files needed to be added.");
+                AddText(console, filesUnneeded.Count + " number of files needed to be removed.\n");
 
                 addFiles(true);
                 removeFiles(true);
             }
             catch (Exception objException)
             {
-                AddText(console, "\n" + objException.ToString() + "\n");
+                AddText(console, "\n" + objException.ToString());
             }
         }
 
@@ -175,11 +205,13 @@ namespace iTunes_Android_Sync
         {
             if (control.InvokeRequired)
             {
-                control.Invoke(new ControlStringConsumer(AddText), new object[] { control, text });  // invoking itself
+                control.Invoke(new ControlStringConsumer(AddText), new object[] { control, text + "\n" });  // invoking itself
             }
             else
             {
-                control.AppendText(text);      // the "functional part", executing only on the main thread
+                control.AppendText(text + "\n");      // the "functional part", executing only on the main thread
+                control.SelectionStart = control.Text.Length;
+                control.ScrollToCaret();
             }
         }
 
@@ -231,7 +263,7 @@ namespace iTunes_Android_Sync
         {
             try
             {
-                if ((command.ToString()).IndexOf("devices") == -1) AddText(console, "Running cmd command \"" + command + "\"\n");
+                if ((command.ToString()).IndexOf("devices") == -1) AddText(console, "Running cmd command \"" + command + "\"");
 
                 // create the ProcessStartInfo using "cmd" as the program to be run,
                 // and "/c " as the parameters.
@@ -257,7 +289,7 @@ namespace iTunes_Android_Sync
                 { 
                     if (result.IndexOf("/system") > -1)
                     {
-                        AddText(console, "Failed to remove a file. Sorry for the inconvenience.\nTo remove this file, you will have to manually navigate and delete the file.\n\n");
+                        AddText(console, "Failed to remove a file. Sorry for the inconvenience.\nTo remove this file, you will have to manually navigate and delete the file.\n");
                     }
                 }   
                 else
@@ -339,18 +371,24 @@ namespace iTunes_Android_Sync
             //If the line is null then there are no devices at all.
             if ((device = deviceslist.ReadLine()) == null || device.Length < 3)
             {
-                AddText(console, "\nError!: No connected devices detected.\nPlease make sure you have ADB drivers installed.\nAlso make sure USB debugging is enabled on your Android device.\n\n");
+                AddText(console, "\nError!: No connected devices detected.\nPlease make sure you have ADB drivers installed.\nAlso make sure USB debugging is enabled on your Android device.\n");
                 return false;
             }
 
             //We do not want any emulators to be here either!
-            if (device.IndexOf("emulator") > -1)
+            while (device.IndexOf("emulator") > -1)
             {
-                AddText(console, "\nError!: There seems to be an emulator device connected.\nPlease disconnect the emulator to sync with your Android device.\n\n");
-                return false;
+                device = deviceslist.ReadLine();
+                //AddText(console, "\nError!: There seems to be an emulator device connected.\nPlease disconnect the emulator to sync with your Android device.\n\n");
+                if (device == null || device.Length < 3)
+                {
+                    AddText(console, "\nError!: No connected devices detected.\nPlease make sure you have ADB drivers installed.\nAlso make sure USB debugging is enabled on your Android device.\n");
+                    return false;
+                } 
+                //return false;
             }
 
-            AddText(console, "Device present!\n");
+            AddText(console, "Device present!");
             return true;
         }
 
@@ -362,8 +400,8 @@ namespace iTunes_Android_Sync
                 foreach (string element in filesNeeded)
                 {
                     //AddText(console, "adb push " + element + " " + Android + element.Substring(PC.Length) + "\n");
-                    cmd(("adb push \"" + PC + element + "\" \"" + Android + element + "\"").Replace("\\","/"));
-                    addFiles_bat.WriteLine(("adb push \"" + PC + element + "\" \"" + Android + element + "\"").Replace("\\", "/") + "\n");
+                    cmd(("adb -d push \"" + PC + element + "\" \"" + Android + element + "\"").Replace("\\","/"));
+                    addFiles_bat.WriteLine(("adb -d push \"" + PC + element + "\" \"" + Android + element + "\"").Replace("\\", "/"));
                 }
                 IncreaseProgress(progressBar, 60);
                 addFiles_bat.Close();
@@ -383,8 +421,8 @@ namespace iTunes_Android_Sync
                 foreach (string element in filesUnneeded)
                 {
                     //AddText(console, "adb shell rm -f " + element + "\n");
-                    cmd(("adb shell rm -f \"" + element + "\"")); //.Replace("\\","/")
-                    rmFiles_bat.WriteLine(("adb shell rm -f \"" + element + "\"") + "\n");
+                    cmd(("adb -d shell rm -f \"" + element + "\"")); //.Replace("\\","/")
+                    rmFiles_bat.WriteLine(("adb -d shell rm -f \"" + element + "\""));
                 }
                 IncreaseProgress(progressBar, 20);
                 rmFiles_bat.Close();
@@ -414,8 +452,28 @@ namespace iTunes_Android_Sync
 
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-
+            if (hidden)
+            {
+                Show();
+                hidden = false;
+                this.WindowState = FormWindowState.Normal;
+            }
+            else
+            {
+                Hide();
+                hidden = true;
+            }
         }
+
+        protected override void OnResize(EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                Hide();
+                hidden = true;
+            }
+        }
+
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
@@ -438,6 +496,16 @@ namespace iTunes_Android_Sync
         }
 
         private void PCSyncDirectory_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void console_TextChanged(object sender, EventArgs e)
         {
 
         }

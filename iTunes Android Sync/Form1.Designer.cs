@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.fSync_button = new System.Windows.Forms.Button();
             this.bSync_button = new System.Windows.Forms.Button();
             this.progressBar = new System.Windows.Forms.ProgressBar();
@@ -44,6 +45,8 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.navigateDirectory = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.XMLLibraryFile = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // fSync_button
@@ -51,7 +54,7 @@
             this.fSync_button.AccessibleDescription = "";
             this.fSync_button.AccessibleName = "";
             this.fSync_button.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fSync_button.Location = new System.Drawing.Point(691, 248);
+            this.fSync_button.Location = new System.Drawing.Point(695, 318);
             this.fSync_button.Name = "fSync_button";
             this.fSync_button.Size = new System.Drawing.Size(113, 39);
             this.fSync_button.TabIndex = 0;
@@ -64,7 +67,7 @@
             // 
             this.bSync_button.Enabled = false;
             this.bSync_button.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bSync_button.Location = new System.Drawing.Point(691, 293);
+            this.bSync_button.Location = new System.Drawing.Point(695, 363);
             this.bSync_button.Name = "bSync_button";
             this.bSync_button.Size = new System.Drawing.Size(113, 39);
             this.bSync_button.TabIndex = 1;
@@ -77,7 +80,7 @@
             // 
             this.progressBar.BackColor = System.Drawing.SystemColors.ControlLight;
             this.progressBar.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.progressBar.Location = new System.Drawing.Point(12, 338);
+            this.progressBar.Location = new System.Drawing.Point(16, 408);
             this.progressBar.Name = "progressBar";
             this.progressBar.Size = new System.Drawing.Size(792, 23);
             this.progressBar.TabIndex = 2;
@@ -94,15 +97,16 @@
             this.console.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.console.DetectUrls = false;
             this.console.Font = new System.Drawing.Font("Lucida Sans Typewriter", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.console.Location = new System.Drawing.Point(12, 87);
+            this.console.Location = new System.Drawing.Point(16, 131);
             this.console.Name = "console";
             this.console.ReadOnly = true;
-            this.console.Size = new System.Drawing.Size(673, 245);
+            this.console.Size = new System.Drawing.Size(673, 271);
             this.console.TabIndex = 4;
             this.console.TabStop = false;
             this.console.Text = "";
             this.toolTip1.SetToolTip(this.console, "This will show both information and errors regarding the application.");
             this.console.WordWrap = false;
+            this.console.TextChanged += new System.EventHandler(this.console_TextChanged);
             // 
             // AndroidSyncDirectory
             // 
@@ -119,7 +123,7 @@
             // 
             this.syncPlaylists_checkbox.AutoSize = true;
             this.syncPlaylists_checkbox.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.syncPlaylists_checkbox.Location = new System.Drawing.Point(691, 222);
+            this.syncPlaylists_checkbox.Location = new System.Drawing.Point(695, 292);
             this.syncPlaylists_checkbox.Name = "syncPlaylists_checkbox";
             this.syncPlaylists_checkbox.Size = new System.Drawing.Size(113, 20);
             this.syncPlaylists_checkbox.TabIndex = 3;
@@ -129,8 +133,9 @@
             // cleanSync_checkbox
             // 
             this.cleanSync_checkbox.AutoSize = true;
+            this.cleanSync_checkbox.Enabled = false;
             this.cleanSync_checkbox.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F);
-            this.cleanSync_checkbox.Location = new System.Drawing.Point(691, 196);
+            this.cleanSync_checkbox.Location = new System.Drawing.Point(695, 266);
             this.cleanSync_checkbox.Name = "cleanSync_checkbox";
             this.cleanSync_checkbox.Size = new System.Drawing.Size(95, 20);
             this.cleanSync_checkbox.TabIndex = 5;
@@ -140,6 +145,7 @@
             // notifyIcon
             // 
             this.notifyIcon.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon.Icon")));
             this.notifyIcon.Text = "Android iTuneSync";
             this.notifyIcon.Visible = true;
             this.notifyIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
@@ -194,17 +200,41 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Lithos Pro Regular", 7F);
-            this.label3.Location = new System.Drawing.Point(703, 9);
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.label3.Location = new System.Drawing.Point(707, 434);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(101, 12);
             this.label3.TabIndex = 11;
             this.label3.Text = "Made by Alan Tai";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Lucida Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(13, 98);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(140, 15);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "iTunes XML Library File";
+            // 
+            // XMLLibraryFile
+            // 
+            this.XMLLibraryFile.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.XMLLibraryFile.Location = new System.Drawing.Point(187, 93);
+            this.XMLLibraryFile.Name = "XMLLibraryFile";
+            this.XMLLibraryFile.Size = new System.Drawing.Size(459, 20);
+            this.XMLLibraryFile.TabIndex = 13;
+            this.XMLLibraryFile.Text = "C:/Users/Alan/Music/iTunes/iTunes Music Library.xml";
+            this.toolTip1.SetToolTip(this.XMLLibraryFile, "This is only needed for the sync playlists  option!");
             // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(816, 373);
+            this.ClientSize = new System.Drawing.Size(819, 446);
+            this.Controls.Add(this.XMLLibraryFile);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.navigateDirectory);
             this.Controls.Add(this.label2);
@@ -218,6 +248,7 @@
             this.Controls.Add(this.bSync_button);
             this.Controls.Add(this.fSync_button);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainWindow";
             this.Opacity = 0.97D;
@@ -246,6 +277,8 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button navigateDirectory;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox XMLLibraryFile;
     }
 }
 
