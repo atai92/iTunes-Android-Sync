@@ -1,0 +1,2 @@
+adb -d push "C:/Users/Alan/Music/iTunes/iTunes Media/Music/POWERS/Unknown Album/Beat Of My Drum (White Panda Remix).mp3" "/sdcard/Music/iTunes/iTunes Media/Music/POWERS/Unknown Album/Beat Of My Drum (White Panda Remix).mp3"
+adb -d push "C:/Users/Alan/Music/iTunes/iTunes Media/Music/The White Panda/Firefly Music Festival Mixtape 2015/03 The White Panda - Shut Up And Dan.mp3" "/sdcard/Music/iTunes/iTunes Media/Music/The White Panda/Firefly Music Festival Mixtape 2015/03 The White Panda - Shut Up And Dan.mp3"

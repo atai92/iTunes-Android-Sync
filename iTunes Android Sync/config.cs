@@ -6,34 +6,9 @@ using System.Threading.Tasks;
 
 namespace iTunes_Android_Sync
 {
-    public class param
-    {
-        string PC;
-        string Android;
-        Boolean cleanSync;
-        Boolean syncPlaylists;
-
-        public param(string PCPath, string AndroidPath, Boolean clean, Boolean sync_playlists)
-        {
-            PC = PCPath;
-            Android = AndroidPath;
-            cleanSync = clean;
-            syncPlaylists = sync_playlists;
-        }
-
-        public string[] getPaths()
-        {
-            return new string[] { PC, Android };
-        }
-
-        public Boolean[] getCheckboxes()
-        {
-            return new Boolean[] { cleanSync, syncPlaylists };
-        }
-    }
-
     public class config
     {
+        Dictionary<string, string> cfg = new Dictionary<string, string>();
         string cfg_filename;
 
         public config()
@@ -50,42 +25,39 @@ namespace iTunes_Android_Sync
             return false;
         }
 
-        public param getParam()
+        public Dictionary<string, string> read()
         {
-            System.IO.StreamReader cfg = new System.IO.StreamReader(cfg_filename);
+            System.IO.StreamReader cfg_file = new System.IO.StreamReader(cfg_filename);
 
-            string param = cfg.ReadLine();
-            string PCPath = param.Substring("[PC]=".Length);
+            string line;
 
-            param = cfg.ReadLine();
-            string AndroidPath = "";
-            if (param.Length > "[Android]=".Length) AndroidPath = param.Substring("[Android]=".Length);
+            while ((line = cfg_file.ReadLine()) != null)
+            {
+                if (line.IndexOf("=") > -1)
+                {
+                    string[] temp = line.Split('=');
+                    if (temp.Length > 1) cfg.Add(temp[0], temp[1]);
+                }
+            }
 
-            param = cfg.ReadLine();
-            Boolean clean = false;
-            if (param.IndexOf("True") > -1) clean = true;
-
-            param = cfg.ReadLine();
-            Boolean sync_playlists = false;
-            if (param.IndexOf("True") > -1) sync_playlists = true;
-
-            cfg.Close();
-            return new param(PCPath, AndroidPath, clean, sync_playlists);
+            cfg_file.Close();
+            return cfg;
         }
 
-        public void save(string PC, string Android, Boolean clean, Boolean syncPlaylists)
+        public void save(string PC, string Android, Boolean clean, Boolean syncPlaylists, string iTunesLib)
         {
-                System.IO.StreamWriter cfg = new System.IO.StreamWriter(cfg_filename);
+            System.IO.StreamWriter cfg = new System.IO.StreamWriter(cfg_filename);
 
-                string[] lines = new string[4];
-                lines[0] = "[PC]=" + PC;
-                lines[1] = "[Android]=" + Android;
-                lines[2] = "[Clean Sync]=" + clean.ToString();
-                lines[3] = "[Sync playlists]=" + syncPlaylists.ToString();
+            string[] lines = new string[5];
+            lines[0] = "PC=" + PC;
+            lines[1] = "Android=" + Android;
+            lines[2] = "Clean_Sync=" + clean.ToString();
+            lines[3] = "Sync_Playlists=" + syncPlaylists.ToString();
+            lines[4] = "iTunesXML=" + iTunesLib;
 
-                foreach (string element in lines) cfg.WriteLine(element);
+            foreach (string element in lines) cfg.WriteLine(element);
 
-                cfg.Close();
+            cfg.Close();
         }
     }
 

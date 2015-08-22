@@ -36,6 +36,7 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.console = new System.Windows.Forms.RichTextBox();
             this.AndroidSyncDirectory = new System.Windows.Forms.TextBox();
+            this.XMLLibraryDirectory = new System.Windows.Forms.TextBox();
             this.syncPlaylists_checkbox = new System.Windows.Forms.CheckBox();
             this.cleanSync_checkbox = new System.Windows.Forms.CheckBox();
             this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
@@ -46,7 +47,6 @@
             this.navigateDirectory = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.XMLLibraryFile = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // fSync_button
@@ -118,6 +118,16 @@
             this.AndroidSyncDirectory.Text = "/sdcard/Music/";
             this.toolTip1.SetToolTip(this.AndroidSyncDirectory, "Do not modify unless you know what you\'re doing!");
             this.AndroidSyncDirectory.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // XMLLibraryDirectory
+            // 
+            this.XMLLibraryDirectory.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.XMLLibraryDirectory.Location = new System.Drawing.Point(187, 93);
+            this.XMLLibraryDirectory.Name = "XMLLibraryDirectory";
+            this.XMLLibraryDirectory.Size = new System.Drawing.Size(459, 20);
+            this.XMLLibraryDirectory.TabIndex = 13;
+            this.XMLLibraryDirectory.Text = "C:/Users/Alan/Music/iTunes/iTunes Music Library.xml";
+            this.toolTip1.SetToolTip(this.XMLLibraryDirectory, "This is only needed for the sync playlists  option!");
             // 
             // syncPlaylists_checkbox
             // 
@@ -218,22 +228,12 @@
             this.label4.TabIndex = 12;
             this.label4.Text = "iTunes XML Library File";
             // 
-            // XMLLibraryFile
-            // 
-            this.XMLLibraryFile.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.XMLLibraryFile.Location = new System.Drawing.Point(187, 93);
-            this.XMLLibraryFile.Name = "XMLLibraryFile";
-            this.XMLLibraryFile.Size = new System.Drawing.Size(459, 20);
-            this.XMLLibraryFile.TabIndex = 13;
-            this.XMLLibraryFile.Text = "C:/Users/Alan/Music/iTunes/iTunes Music Library.xml";
-            this.toolTip1.SetToolTip(this.XMLLibraryFile, "This is only needed for the sync playlists  option!");
-            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(819, 446);
-            this.Controls.Add(this.XMLLibraryFile);
+            this.Controls.Add(this.XMLLibraryDirectory);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.navigateDirectory);
@@ -278,7 +278,7 @@
         private System.Windows.Forms.Button navigateDirectory;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox XMLLibraryFile;
+        private System.Windows.Forms.TextBox XMLLibraryDirectory;
     }
 }
 

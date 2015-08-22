@@ -21,6 +21,9 @@ namespace iTunes_Android_Sync
         //Directory of Android music folder to sync to/from.
         string Android;
 
+        //Directory of iTunes' XML Library file to parse playlists from
+        string iTunesLib;
+
         //File formats allowed to be synced across.
         string[] syncableFormats = 
             {".3gp", ".act", ".aiff", ".aac", ".amr", ".ape", ".au", ".awb",
@@ -55,25 +58,46 @@ namespace iTunes_Android_Sync
             if (cfg.Exists())
             {
                 AddText(console, "Config file found.\nLoading config file. . . NOTE: Config file saves every time you sync!\n");
+                Dictionary<string, string> config_params = cfg.read();
 
-                param parameters = cfg.getParam();
-                string[] paths = new string[2];
-                paths = parameters.getPaths();
-                PC = paths[0];
-                PCSyncDirectory.Text = PC;
-                Android = paths[1];
-                AndroidSyncDirectory.Text = Android;
-
-                Boolean[] checkboxes = new Boolean[2];
-                checkboxes = parameters.getCheckboxes();
-                cleanSync_checkbox.Checked = checkboxes[0];
-                syncPlaylists_checkbox.Checked = checkboxes[1];
+                foreach (KeyValuePair<string,string> element in config_params)
+                {
+                    switch (element.Key.ToLower())
+                    {
+                        case "pc":
+                            PC = element.Value;
+                            break;
+                        case "android":
+                            Android = element.Value;
+                            break;
+                        case "clean_sync":
+                            if (element.Value.ToLower() == "true") cleanSync_checkbox.Checked = true;
+                            else cleanSync_checkbox.Checked = false;
+                            break;
+                        case "sync_playlists":
+                            if (element.Value.ToLower() == "true") syncPlaylists_checkbox.Checked = true;
+                            else syncPlaylists_checkbox.Checked = false;
+                            break;
+                        case "itunesxml":
+                            iTunesLib = element.Value;
+                            break;
+                        default:
+                            break;
+                    }
+                }
+                if (PC == null) PCSyncDirectory.Text = "C:/Users/USERNAMEHERE/Music/";
+                else PCSyncDirectory.Text = PC;
+                if (Android == null) AndroidSyncDirectory.Text = "/sdcard/Music/";
+                else AndroidSyncDirectory.Text = Android;
+                if (iTunesLib == null) XMLLibraryDirectory.Text = "C:/Users/USERNAMEHERE/Music/iTunes/iTunes Music Library.xml";
+                else XMLLibraryDirectory.Text = iTunesLib;
             }
             else
             {
                 AddText(console, "Config file not found.\nLoading default parameters.\n");
                 AndroidSyncDirectory.Text = "/sdcard/Music/";
                 PCSyncDirectory.Text = "C:/Users/USERNAMEHERE/Music/";
+                XMLLibraryDirectory.Text = "C:/Users/USERNAMEHERE/Music/iTunes/iTunes Music Library.xml";
             }
         }
 
@@ -85,9 +109,7 @@ namespace iTunes_Android_Sync
             IncreaseProgress(progressBar, -100);
             filesNeeded.Clear();
             filesUnneeded.Clear();
-            PC = PCSyncDirectory.Text;
-            Android = AndroidSyncDirectory.Text;
-            cfg.save(PC, Android, cleanSync_checkbox.Checked, syncPlaylists_checkbox.Checked);
+            cfg.save(PCSyncDirectory.Text, AndroidSyncDirectory.Text, cleanSync_checkbox.Checked, syncPlaylists_checkbox.Checked, XMLLibraryDirectory.Text);
             
         }
 
@@ -127,17 +149,18 @@ namespace iTunes_Android_Sync
                 {
                     AddText(console, "Creating playlists from iTunes library.");
                     //Create playlist from iTunes XML file ("iTunes Music Library.xml").
-                    iTunesLibrary lib = new iTunesLibrary(XMLLibraryFile.Text);
+                    iTunesLibrary lib = new iTunesLibrary(XMLLibraryDirectory.Text);
                     if (lib.Exists())
                     {
                         AddText(console, "Parsing iTunes XML Library file.");
-                        lib.read(PC);
+                        lib.read(PCSyncDirectory.Text);
                         List<string[]> Songs = lib.getList();
                         AddText(console, "Listing track ID's with respective file locations. . .");
                         foreach (string[] elements in Songs)
                         {
                             AddText(console, "Track ID: " + elements[0] + " Location: " + elements[1]);
                         }
+                        lib.delete();
                         //Create actual files in local folder
                         List<playlist> Playlists = lib.makePlaylists();
                         foreach (playlist _playlist in Playlists)
@@ -145,10 +168,10 @@ namespace iTunes_Android_Sync
                             if (!_playlist.empty())
                             {
                                 string file = _playlist.filename();
-                                cmd(("adb -d push \"" + file + "\" \"" + Android + file + "\"").Replace("\\", "/"));
+                                cmd(("adb -d push \"" + file + "\" \"" + AndroidSyncDirectory.Text + file + "\"").Replace("\\", "/"));
                             }
                         }
-                        lib.delete();
+                        
                     }
                     else
                     {
@@ -157,9 +180,9 @@ namespace iTunes_Android_Sync
                     }
                 }
                 //Create list of files in local and remote directories
-                if (cmd("dir \"" + PC + "\" /s/b > srclist.txt") == 0) throw new System.Exception();
+                if (cmd("dir \"" + PCSyncDirectory.Text + "\" /s/b > srclist.txt") == 0) throw new System.Exception();
                 IncreaseProgress(progressBar, 4);
-                if (cmd("adb -d shell find " + Android + " -type f -print > destlist.txt") == 0) throw new System.Exception();
+                if (cmd("adb -d shell find " + AndroidSyncDirectory.Text + " -type f -print > destlist.txt") == 0) throw new System.Exception();
                 IncreaseProgress(progressBar, 4);
 
                 //Compare src and dest to get files needed to be added/removed
@@ -333,10 +356,10 @@ namespace iTunes_Android_Sync
                 //Strip original path from line -> line.Substring(PC.Length);
                 //Check to see if file exists at destination
                 Boolean found = false;
-                string temp = src_line.Substring(PC.Length).Replace("\\", "/");
+                string temp = src_line.Substring(PCSyncDirectory.Text.Length).Replace("\\", "/");
                 foreach (string element in destLine_list)
                 {
-                    if (temp == element.Substring(Android.Length))
+                    if (temp == element.Substring(AndroidSyncDirectory.Text.Length))
                     {
                         destLine_list.Remove(element);
                         found = true;
@@ -364,7 +387,7 @@ namespace iTunes_Android_Sync
             cmd("adb devices > devices.txt");
             System.IO.StreamReader deviceslist = new System.IO.StreamReader("devices.txt");
 
-            //First line is always the same and is garbage.
+            //First line is always the same and is unnecessary
             string device = deviceslist.ReadLine();
 
             //Second line shows first device. This is the device that will accept the ADB commands.
@@ -375,17 +398,15 @@ namespace iTunes_Android_Sync
                 return false;
             }
 
-            //We do not want any emulators to be here either!
+            //We want to see if there are any non-emulated devices present.
             while (device.IndexOf("emulator") > -1)
             {
                 device = deviceslist.ReadLine();
-                //AddText(console, "\nError!: There seems to be an emulator device connected.\nPlease disconnect the emulator to sync with your Android device.\n\n");
                 if (device == null || device.Length < 3)
                 {
                     AddText(console, "\nError!: No connected devices detected.\nPlease make sure you have ADB drivers installed.\nAlso make sure USB debugging is enabled on your Android device.\n");
                     return false;
-                } 
-                //return false;
+                }
             }
 
             AddText(console, "Device present!");
@@ -400,8 +421,8 @@ namespace iTunes_Android_Sync
                 foreach (string element in filesNeeded)
                 {
                     //AddText(console, "adb push " + element + " " + Android + element.Substring(PC.Length) + "\n");
-                    cmd(("adb -d push \"" + PC + element + "\" \"" + Android + element + "\"").Replace("\\","/"));
-                    addFiles_bat.WriteLine(("adb -d push \"" + PC + element + "\" \"" + Android + element + "\"").Replace("\\", "/"));
+                    cmd(("adb -d push \"" + PCSyncDirectory.Text + element + "\" \"" + AndroidSyncDirectory.Text + element + "\"").Replace("\\","/"));
+                    addFiles_bat.WriteLine(("adb -d push \"" + PCSyncDirectory.Text + element + "\" \"" + AndroidSyncDirectory.Text + element + "\"").Replace("\\", "/"));
                 }
                 IncreaseProgress(progressBar, 60);
                 addFiles_bat.Close();

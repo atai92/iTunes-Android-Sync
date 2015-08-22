@@ -6,3 +6,5 @@ Extract playlists from iTunes and send it to your Android!
 You can check out what this program [can](https://github.com/atai92/iTunes-Android-Sync/wiki/What-can-this-do%3F) and [cannot](https://github.com/atai92/iTunes-Android-Sync/wiki/What-can't-this-do%3F) do. 
 You can also find out [how to set up](https://github.com/atai92/iTunes-Android-Sync/wiki/How-to-Use) your environment in order to use this program.**
   
+
+Author: Alan Tai

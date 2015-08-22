@@ -1,4 +1,4 @@
 List of devices attached 
-emulator-5554	device
 c9e42b2f	device
+emulator-5554	device
 

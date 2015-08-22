@@ -1,1 +1,5 @@
+adb -d shell rm -f "/sdcard/Music/iTunes/iTunes Media/Music/Armin Van Buuren/A State Of Trance 550 (Cd 1)/16 Invasion.mp3"
+adb -d shell rm -f "/sdcard/Music/iTunes/iTunes Media/Music/Rick Mitchells/Unknown Album/Jinxed (Original Mix).mp3"
+adb -d shell rm -f "/sdcard/Music/iTunes/iTunes Media/Music/W&W/Thunder/01 Thunder (Original Mix).mp3"
+adb -d shell rm -f "/sdcard/Music/iTunes/iTunes Media/Music/W&W/Unknown Album/Impact (Original Mix).mp3"
 adb -d shell rm -f "/sdcard/Music/iTunes\iTunes Media\Music\Honka & Cuebrick\Unknown Album\Alive.mp3"

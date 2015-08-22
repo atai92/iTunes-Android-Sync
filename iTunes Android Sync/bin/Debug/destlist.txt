@@ -1641,6 +1641,7 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Suspect 44 feat. RUMORS/Here Right Now/Here Right Now (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Thomas Hayes ft. Joni Fatora/Unknown Album/Neon.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Tommy Trash Feat. JHart/Unknown Album/Wake The Giant (Radio Edit).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Pitch Perfect/Pitch Perfect 2 (Original Motion Picture/17 Flashlight.mp3
 /sdcard/Music/iTunes/sentinel
 /sdcard/Music/iTunes/Previous iTunes Libraries/iTunes Library 2011-10-14.itl
 /sdcard/Music/iTunes/Previous iTunes Libraries/iTunes Library 2011-12-07.itl

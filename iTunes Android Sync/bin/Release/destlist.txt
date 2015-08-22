@@ -3,33 +3,10 @@
 /sdcard/Music/102-dash_berlin_-_man_on_the_run_(with_cerf_mitiska_and_jaren)-atrium.mp3
 /sdcard/Music/11 4 AM (Adam K & Soha Radio Edit) [.mp3
 /sdcard/Music/201-dash_berlin_-_till_the_sky_falls_down_(arctic_remix)-atrium.mp3
-/sdcard/Music/AlbumArtSmall.jpg
-/sdcard/Music/AlbumArt_{0BC257F9-8A6C-4A24-9A37-D34FE8868F64}_Large.jpg
-/sdcard/Music/AlbumArt_{0BC257F9-8A6C-4A24-9A37-D34FE8868F64}_Small.jpg
-/sdcard/Music/AlbumArt_{252CD42B-34F6-4682-997C-D740FB1DE8D6}_Large.jpg
-/sdcard/Music/AlbumArt_{252CD42B-34F6-4682-997C-D740FB1DE8D6}_Small.jpg
-/sdcard/Music/AlbumArt_{37BF5347-5567-40CA-9B22-566ACBD6DDA2}_Large.jpg
-/sdcard/Music/AlbumArt_{37BF5347-5567-40CA-9B22-566ACBD6DDA2}_Small.jpg
-/sdcard/Music/AlbumArt_{599B3D8A-05EF-4A17-9774-1EAF4CA7C0B1}_Large.jpg
-/sdcard/Music/AlbumArt_{599B3D8A-05EF-4A17-9774-1EAF4CA7C0B1}_Small.jpg
-/sdcard/Music/AlbumArt_{5A29F572-732D-4BC2-AB1A-1390B393CBCA}_Large.jpg
-/sdcard/Music/AlbumArt_{5A29F572-732D-4BC2-AB1A-1390B393CBCA}_Small.jpg
-/sdcard/Music/AlbumArt_{639C1038-9586-4A68-AC4B-BC7AAD19EDE9}_Large.jpg
-/sdcard/Music/AlbumArt_{639C1038-9586-4A68-AC4B-BC7AAD19EDE9}_Small.jpg
-/sdcard/Music/AlbumArt_{6A568001-A8F5-4B99-84D2-C2BF628131F7}_Large.jpg
-/sdcard/Music/AlbumArt_{6A568001-A8F5-4B99-84D2-C2BF628131F7}_Small.jpg
-/sdcard/Music/AlbumArt_{6C7D8EC5-F2B8-4F6E-B0D9-A5BD604AE0FD}_Large.jpg
-/sdcard/Music/AlbumArt_{6C7D8EC5-F2B8-4F6E-B0D9-A5BD604AE0FD}_Small.jpg
-/sdcard/Music/AlbumArt_{75989738-21A4-4BFE-BFAD-9B5E8E12D1B1}_Large.jpg
-/sdcard/Music/AlbumArt_{75989738-21A4-4BFE-BFAD-9B5E8E12D1B1}_Small.jpg
-/sdcard/Music/AlbumArt_{762F83D8-AEC3-4A2B-B168-8483328CCA3D}_Large.jpg
-/sdcard/Music/AlbumArt_{762F83D8-AEC3-4A2B-B168-8483328CCA3D}_Small.jpg
-/sdcard/Music/AlbumArt_{7B667200-A727-4373-ACF8-3BC6F20675EB}_Large.jpg
-/sdcard/Music/AlbumArt_{7B667200-A727-4373-ACF8-3BC6F20675EB}_Small.jpg
-/sdcard/Music/AlbumArt_{82F90B89-DD94-4535-9871-850E68421A21}_Large.jpg
-/sdcard/Music/AlbumArt_{82F90B89-DD94-4535-9871-850E68421A21}_Small.jpg
-/sdcard/Music/AlbumArt_{F18E548B-8A0B-44A6-AA41-1E3AA8633938}_Large.jpg
-/sdcard/Music/AlbumArt_{F18E548B-8A0B-44A6-AA41-1E3AA8633938}_Small.jpg
+/sdcard/Music/le vocals.m3u
+/sdcard/Music/Music.m3u
+/sdcard/Music/Recently Added.m3u
+/sdcard/Music/slaps.m3u
 /sdcard/Music/Avicii - Levels (Original Mix).mp3
 /sdcard/Music/Avicii feat. Salem Al Fakir - Silhouettes (Vocal Mix).mp3
 /sdcard/Music/Bruno Mars - It Will Rain ( 2o11 ) [ www.MzHipHop.com ].mp3
@@ -37,10 +14,8 @@
 /sdcard/Music/Coldplay - Paradise (Fedde Le Grand Remix).mp3
 /sdcard/Music/David Guetta Feat. Sia - Titanium (Final) ( 2o11 ) [ www.MzHipHop.com ].mp3
 /sdcard/Music/Deadmau5 - Raise Your Weapon (Madeon Remix).mp3
-/sdcard/Music/desktop.ini
 /sdcard/Music/DJ Goober - Disarm the Sun & Moon.mp3
 /sdcard/Music/Fade Into Darkness (Vocal Club Mix).mp3
-/sdcard/Music/Folder.jpg
 /sdcard/Music/Gym Class Heroes Feat. Adam Levine - Stereo Hearts ( 2o11 ) [ www.MzHipHop.com ].mp3
 /sdcard/Music/iTunes/Album Artwork/Cache/58D304FFF02B08D1/00/00/00/58D304FFF02B08D1-8A8040E61D678000.itc2
 /sdcard/Music/iTunes/Album Artwork/Cache/58D304FFF02B08D1/00/00/15/58D304FFF02B08D1-121106A423713F00.itc2
@@ -558,7 +533,7 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Above & Beyond/Unknown Album/13 A Thing Called Love (Extended Mix.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Above and Beyond feat. Richard Bedford/Group Therapy/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Above and Beyond feat. Richard Bedford/Group Therapy/Folder.jpg
-/sdcard/Music/iTunes/iTunes Media/Music/Adam Szabo & Johan Vilborg/Unknown Album/xTwo To One (Original Mix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Adam Szabo & Johan Vilborg/Unknown Album/Two To One (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Adventure Club feat. Yuna/Gold/Gold (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Afrojack & Shermanology/Can't Stop Me/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Afrojack & Shermanology/Can't Stop Me/Folder.jpg
@@ -653,6 +628,7 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Audien/Unknown Album/desktop.ini
 /sdcard/Music/iTunes/iTunes Media/Music/Audien/Unknown Album/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Audien/Insomnia (feat. Parson James) - Single/01 Insomnia (feat. Parson James).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Audien/Something Better (feat. Lady Antebellum)/01 Something Better (feat. Lady Ante.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Avicii/Unknown Album/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Avicii/Unknown Album/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Axwell/Unknown Album/Center of The Universe (Original Ext.mp3
@@ -811,7 +787,9 @@
 /sdcard/Music/iTunes/iTunes Media/Music/David Guetta/Lovers on the Sun EP/AlbumArt_{8660A213-6B09-472C-8C29-6FB08020DD6B}_Small.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/David Guetta/Lovers on the Sun EP/AlbumArt_{8660A213-6B09-472C-8C29-6FB08020DD6B}_Large.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/David Guetta/Lovers on the Sun EP/AlbumArtSmall.jpg
+/sdcard/Music/iTunes/iTunes Media/Music/David Guetta/Lovers on the Sun EP/01 Lovers on the Sun (feat. Sam Mart.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/David Guetta/desktop.ini
+/sdcard/Music/iTunes/iTunes Media/Music/David Guetta & Alesso Feat. Tegan & Sara/Unknown Album/Every Chance We Get We Run.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/David Guetta Feat. Nervo/Unknown Album/In My Head.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/David Guetta feat. Sia/Unknown Album/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/David Guetta feat. Sia/Unknown Album/Folder.jpg
@@ -957,8 +935,10 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Henrik B & Niklas Gustavsson & Peter Joh/Unknown Album/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Henrik B & Niklas Gustavsson & Peter Joh/Unknown Album/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/http___vk.com_ex_energy/Unknown Album/AlbumArtSmall.jpg
-/sdcard/Music/iTunes/iTunes Media/Music/http___vk.com_ex_energy/Unknown Album/Atmosphere (Extended Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/http___vk.com_ex_energy/Unknown Album/Folder.jpg
+/sdcard/Music/iTunes/iTunes Media/Music/http___vk.com_ex_energy/http___vk.com_ex_energy/02 Atmosphere (Extended Mix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/3LAU feat. Emma Hewitt/Alive Again/Alive Again (Radio Edit).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/SMLE/Reasons To/01 It'll Be Okay (feat. Helen Tess).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/http___www.dfm.ru_/Unknown Album/07 Do Or Die (DFM MIX).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Imagine Dragons/Night Visions (Deluxe Version)/01 Radioactive.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Imagine Dragons/Night Visions (Deluxe Version)/02 Tiptoe.mp3
@@ -1109,6 +1089,7 @@
 /sdcard/Music/iTunes/iTunes Media/Music/MAKJ & Henry Fong/Unknown Album/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/MAKJ & Henry Fong/Unknown Album/Encore (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Mako/Mako - Beam/Beam (2013 Original Mix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Mako/Unknown Album/Smoke Filled Room.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Maor Levi/Unknown Album/01 Pixel Hearts (Original Mix) [FDM].mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Maor Levi feat. Daphne/Unknown Album/Beautiful Disaster (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Maor Levi, Pierce Fulton/desktop.ini
@@ -1632,6 +1613,8 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Maor Levi, Norin/Unknown Album/Good Life (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Milkman/Unknown Album/Hide And Seek.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/MisterWives/Unknown Album/Vagabond (Milkman Remix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/MisterWives/Unknown Album/Hurricane (Halogen Remix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/MisterWives/Unknown Album/Our Own House (Heavy Mellow Remix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Nicola Conte/Revolution/01 Revolution (Vocal Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/ODESZA/Unknown Album/Say My Name (Luke Shay Remix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/OneRepublic/I Lived (Arty Remix)/01 I Lived (Arty Remix).mp3
@@ -1642,6 +1625,7 @@
 /sdcard/Music/iTunes/iTunes Media/Music/R3hab/Samurai (Go Hard)/01 Samurai (Go Hard) (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/The Colourist/Unknown Album/We Won't Go Home (The Jane Doze Remi.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Thomas Gold feat. Kaelyn Behr/Unknown Album/01 Remember (WasteLand Remix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Dada Life/One Last Night on Earth (Remixes) - EP b/04 One Last Night on Earth (Young Bo.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Tritonal & Cash Cash/Unknown Album/Untouchable (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Tritonal feat. Jonathan Mendelsohn/Unknown Album/01 Satellite (Extended Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Young Money/Unknown Album/Bitches Love Me ( ft.Drake , Future).mp3
@@ -1649,6 +1633,15 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Lemaitre feat. Jennie A/Unknown Album/Closer (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Vicetone ft. Kat Nestel/Unknown Album/Nothing Stopping Me (Radio Edit).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Throttle feat. David Specter/Single/01 Together.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Elephante feat. RUMORS/I Want You/I Want You (Original Mix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Hayden James/ODESZA Remix/15 Something About You (ODESZA Remix.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Honka & Cuebrick/Unknown Album/Alive.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/http___vk.com_revealedrecordings_wav/Unknown Album/The Universe (Original Mix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Project 46/Project 46 - Beautiful [vk.com_speeeedy]/12 Search and Rescue (feat. HALIENE).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Suspect 44 feat. RUMORS/Here Right Now/Here Right Now (Original Mix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Thomas Hayes ft. Joni Fatora/Unknown Album/Neon.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Tommy Trash Feat. JHart/Unknown Album/Wake The Giant (Radio Edit).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Pitch Perfect/Pitch Perfect 2 (Original Motion Picture/17 Flashlight.mp3
 /sdcard/Music/iTunes/sentinel
 /sdcard/Music/iTunes/Previous iTunes Libraries/iTunes Library 2011-10-14.itl
 /sdcard/Music/iTunes/Previous iTunes Libraries/iTunes Library 2011-12-07.itl
@@ -1659,31 +1652,10 @@
 /sdcard/Music/iTunes/Previous iTunes Libraries/iTunes Library 2013-09-21.itl
 /sdcard/Music/iTunes/Previous iTunes Libraries/iTunes Library 2014-05-18.itl
 /sdcard/Music/iTunes/Previous iTunes Libraries/iTunes Library 2015-06-19.itl
-/sdcard/Music/le vocals.m3u
-/sdcard/Music/slaps.m3u
 /sdcard/Music/Jason Derulo - Be Careful (Prod. By J.R. Rotem) ( 2o11 ) [ www.MzHipHop.com ].mp3
 /sdcard/Music/Jason Derulo - It Girl ( 2o11 ) [ www.MzHipHop.com ].mp3
 /sdcard/Music/Kaskade (feat. Mindy Gledhill) - Eyes.mp3
 /sdcard/Music/Nadia Ali, Starkillers & Alex Kenji - Pressure (Alesso Remix).mp3
 /sdcard/Music/Tiesto - Escape Me feat. CC Sheffield.mp3
 /sdcard/Music/Tiesto Ft. Tegan & Sara - Feel It In My Bones.mp3
-/sdcard/Music/slapsx.m3u
-/sdcard/Music/iTunes\iTunes Media\Music\Arty feat. Fiora/Take Me Away (Grand Finale)/Folder.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\Arty feat. Fiora/Take Me Away (Grand Finale)/desktop.ini
-/sdcard/Music/iTunes\iTunes Media\Music\Arty feat. Fiora/Take Me Away (Grand Finale)/AlbumArt_{7C238F80-405C-470B-A402-79BDBE6B7C1B}_Small.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\Arty feat. Fiora/Take Me Away (Grand Finale)/AlbumArt_{7C238F80-405C-470B-A402-79BDBE6B7C1B}_Large.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\Arty feat. Fiora/Take Me Away (Grand Finale)/AlbumArtSmall.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\Arty feat. Fiora/desktop.ini
-/sdcard/Music/iTunes\iTunes Media\Music\David Guetta/Lovers on the Sun EP/Folder.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\David Guetta/Lovers on the Sun EP/desktop.ini
-/sdcard/Music/iTunes\iTunes Media\Music\David Guetta/Lovers on the Sun EP/AlbumArt_{8660A213-6B09-472C-8C29-6FB08020DD6B}_Small.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\David Guetta/Lovers on the Sun EP/AlbumArt_{8660A213-6B09-472C-8C29-6FB08020DD6B}_Large.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\David Guetta/Lovers on the Sun EP/AlbumArtSmall.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\David Guetta/desktop.ini
-/sdcard/Music/iTunes\iTunes Media\Music\David Guetta & Alesso Feat. Tegan & Sara/Unknown Album/Every Chance We Get We Run.mp3
-/sdcard/Music/iTunes\iTunes Media\Music\http___vk.com_revealedrecordings_wav/Unknown Album/Folder.jpg
-/sdcard/Music/iTunes\iTunes Media\Music\http___vk.com_revealedrecordings_wav/Unknown Album/AlbumArtSmall.jpg
-/sdcard/Music/Music/Adam Szabo & Johan Vilborg/Unknown Album/Two To One (Original Mix).mp3
-/sdcard/Music/Music/David Guetta & Alesso Feat. Tegan & Sara/Unknown Album/Every Chance We Get We Run.mp3
-/sdcard/Music/Music/Honka & Cuebrick/Unknown Album/Alive.mp3
 /sdcard/Music/iTunes\iTunes Media\Music\Honka & Cuebrick\Unknown Album\Alive.mp3
