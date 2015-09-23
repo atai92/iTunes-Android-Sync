@@ -590,7 +590,6 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Armen Donelian Sextet/Wayfarer-(ANJ264D)-WEB/AlbumArt_{3C23FCEF-35DF-423A-A8FF-445EB3EF4EBB}_Small.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Armen Donelian Sextet/Wayfarer-(ANJ264D)-WEB/desktop.ini
 /sdcard/Music/iTunes/iTunes Media/Music/Armen Donelian Sextet/Wayfarer-(ANJ264D)-WEB/Folder.jpg
-/sdcard/Music/iTunes/iTunes Media/Music/Armin Van Buuren/A State Of Trance 550 (Cd 1)/16 Invasion.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Armin Van Buuren/A State Of Trance 550 (Cd 1)/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Armin Van Buuren/A State Of Trance 550 (Cd 1)/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Armin van Buuren feat. Trevor Guthrie/A State of Trance 605 (2013-03-21) [MM]/AlbumArtSmall.jpg
@@ -1265,7 +1264,6 @@
 /sdcard/Music/iTunes/iTunes Media/Music/R3hab feat. Eva Simons/Unknown Album/01 Unstoppable (Extended Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Rick Mitchells/Unknown Album/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Rick Mitchells/Unknown Album/Folder.jpg
-/sdcard/Music/iTunes/iTunes Media/Music/Rick Mitchells/Unknown Album/Jinxed (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Rihanna/desktop.ini
 /sdcard/Music/iTunes/iTunes Media/Music/Rihanna/Unapologetic/09 Stay (Feat. Mikky Ekko).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Rihanna/Unapologetic/AlbumArtSmall.jpg
@@ -1508,12 +1506,8 @@
 /sdcard/Music/iTunes/iTunes Media/Music/vk.com_edm_people/Wicked Child/02 Wicked Child (Paris & Simo Remix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/vk.com_edm_people/Wicked Child/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/vk.com_edm_people/Wicked Child/Folder.jpg
-/sdcard/Music/iTunes/iTunes Media/Music/W&W/Thunder/01 Thunder (Original Mix).mp3
-/sdcard/Music/iTunes/iTunes Media/Music/W&W/Thunder/AlbumArtSmall.jpg
-/sdcard/Music/iTunes/iTunes Media/Music/W&W/Thunder/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/W&W/Unknown Album/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/W&W/Unknown Album/Folder.jpg
-/sdcard/Music/iTunes/iTunes Media/Music/W&W/Unknown Album/Impact (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/W&W/Unknown Album/Lift Off! (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/W&W/Unknown Album/Moscow (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/W&W & Ummet Ozcan/Unknown Album/AlbumArtSmall.jpg
@@ -1626,6 +1620,7 @@
 /sdcard/Music/iTunes/iTunes Media/Music/The Colourist/Unknown Album/We Won't Go Home (The Jane Doze Remi.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Thomas Gold feat. Kaelyn Behr/Unknown Album/01 Remember (WasteLand Remix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Dada Life/One Last Night on Earth (Remixes) - EP b/04 One Last Night on Earth (Young Bo.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/POWERS/Unknown Album/Beat Of My Drum (White Panda Remix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Tritonal & Cash Cash/Unknown Album/Untouchable (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Tritonal feat. Jonathan Mendelsohn/Unknown Album/01 Satellite (Extended Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Young Money/Unknown Album/Bitches Love Me ( ft.Drake , Future).mp3
@@ -1642,6 +1637,7 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Thomas Hayes ft. Joni Fatora/Unknown Album/Neon.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Tommy Trash Feat. JHart/Unknown Album/Wake The Giant (Radio Edit).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Pitch Perfect/Pitch Perfect 2 (Original Motion Picture/17 Flashlight.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/The White Panda/Firefly Music Festival Mixtape 2015/03 The White Panda - Shut Up And Dan.mp3
 /sdcard/Music/iTunes/sentinel
 /sdcard/Music/iTunes/Previous iTunes Libraries/iTunes Library 2011-10-14.itl
 /sdcard/Music/iTunes/Previous iTunes Libraries/iTunes Library 2011-12-07.itl

@@ -14,6 +14,18 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+#Windows Playlist files
+*.m3u
+
+#TXT Files
+destlist.txt
+devices.txt
+srclist.txt
+
+#Windows Scripts
+addFiles.bat
+rmFiles.bat
+
 # Windows shortcuts
 *.lnk
 

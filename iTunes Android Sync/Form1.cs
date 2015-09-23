@@ -168,7 +168,7 @@ namespace iTunes_Android_Sync
                             if (!_playlist.empty())
                             {
                                 string file = _playlist.filename();
-                                cmd(("adb -d push \"" + file + "\" \"" + AndroidSyncDirectory.Text + file + "\"").Replace("\\", "/"));
+                                cmd(("adb -d push \"" + file + "\" \"" + AndroidSyncDirectory.Text + file + "\"").Replace("\\", "/"), false);
                             }
                         }
                         
@@ -180,9 +180,9 @@ namespace iTunes_Android_Sync
                     }
                 }
                 //Create list of files in local and remote directories
-                if (cmd("dir \"" + PCSyncDirectory.Text + "\" /s/b > srclist.txt") == 0) throw new System.Exception();
+                if (cmd("dir \"" + PCSyncDirectory.Text + "\" /s/b > srclist.txt", false) == 0) throw new System.Exception();
                 IncreaseProgress(progressBar, 4);
-                if (cmd("adb -d shell find " + AndroidSyncDirectory.Text + " -type f -print > destlist.txt") == 0) throw new System.Exception();
+                if (cmd("adb -d shell find " + AndroidSyncDirectory.Text + " -type f -print > destlist.txt", false) == 0) throw new System.Exception();
                 IncreaseProgress(progressBar, 4);
 
                 //Compare src and dest to get files needed to be added/removed
@@ -282,11 +282,11 @@ namespace iTunes_Android_Sync
 
         }
 
-        public int cmd(object command)
+        public int cmd(object command, Boolean silent)
         {
             try
             {
-                if ((command.ToString()).IndexOf("devices") == -1) AddText(console, "Running cmd command \"" + command + "\"");
+                if (!silent) AddText(console, "Running cmd command \"" + command + "\"");
 
                 // create the ProcessStartInfo using "cmd" as the program to be run,
                 // and "/c " as the parameters.
@@ -382,13 +382,19 @@ namespace iTunes_Android_Sync
 
         public Boolean droidConnected()
         {
+            cmd("adb start-server", true);
             AddText(console, "Verifying device is connected. . .\n");
             //Output devices list to a text file because the output cannot be redirected into this form.
-            cmd("adb devices > devices.txt");
+            cmd("adb devices > devices.txt", true);
             System.IO.StreamReader deviceslist = new System.IO.StreamReader("devices.txt");
 
-            //First line is always the same and is unnecessary
+            //Check first line to see if daemon is starting.
             string device = deviceslist.ReadLine();
+            if (device.Contains("daemon"))
+            { //Skip two lines if daemon server is just starting.
+                deviceslist.ReadLine();
+                deviceslist.ReadLine();
+            }
 
             //Second line shows first device. This is the device that will accept the ADB commands.
             //If the line is null then there are no devices at all.
@@ -421,7 +427,7 @@ namespace iTunes_Android_Sync
                 foreach (string element in filesNeeded)
                 {
                     //AddText(console, "adb push " + element + " " + Android + element.Substring(PC.Length) + "\n");
-                    cmd(("adb -d push \"" + PCSyncDirectory.Text + element + "\" \"" + AndroidSyncDirectory.Text + element + "\"").Replace("\\","/"));
+                    cmd(("adb -d push \"" + PCSyncDirectory.Text + element + "\" \"" + AndroidSyncDirectory.Text + element + "\"").Replace("\\","/"), false);
                     addFiles_bat.WriteLine(("adb -d push \"" + PCSyncDirectory.Text + element + "\" \"" + AndroidSyncDirectory.Text + element + "\"").Replace("\\", "/"));
                 }
                 IncreaseProgress(progressBar, 60);
@@ -442,7 +448,7 @@ namespace iTunes_Android_Sync
                 foreach (string element in filesUnneeded)
                 {
                     //AddText(console, "adb shell rm -f " + element + "\n");
-                    cmd(("adb -d shell rm -f \"" + element + "\"")); //.Replace("\\","/")
+                    cmd(("adb -d shell rm -f \"" + element + "\""), false); //.Replace("\\","/")
                     rmFiles_bat.WriteLine(("adb -d shell rm -f \"" + element + "\""));
                 }
                 IncreaseProgress(progressBar, 20);

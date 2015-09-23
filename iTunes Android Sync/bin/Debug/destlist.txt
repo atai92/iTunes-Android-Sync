@@ -590,7 +590,6 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Armen Donelian Sextet/Wayfarer-(ANJ264D)-WEB/AlbumArt_{3C23FCEF-35DF-423A-A8FF-445EB3EF4EBB}_Small.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Armen Donelian Sextet/Wayfarer-(ANJ264D)-WEB/desktop.ini
 /sdcard/Music/iTunes/iTunes Media/Music/Armen Donelian Sextet/Wayfarer-(ANJ264D)-WEB/Folder.jpg
-/sdcard/Music/iTunes/iTunes Media/Music/Armin Van Buuren/A State Of Trance 550 (Cd 1)/16 Invasion.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Armin Van Buuren/A State Of Trance 550 (Cd 1)/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Armin Van Buuren/A State Of Trance 550 (Cd 1)/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Armin van Buuren feat. Trevor Guthrie/A State of Trance 605 (2013-03-21) [MM]/AlbumArtSmall.jpg
@@ -799,9 +798,11 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Deorro/Five Hours/01 Five Hours (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Deorro/Five Hours/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Deorro/Five Hours/Folder.jpg
+/sdcard/Music/iTunes/iTunes Media/Music/Deorro/I Can Be Somebody (feat. Erin McCarley)/01 I Can Be Somebody (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Deorro ft Adrian Delgado/Unknown Album/All I Need Is Your Love (Original Mi.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Dillon Francis/Unknown Album/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Dillon Francis/Unknown Album/Folder.jpg
+/sdcard/Music/iTunes/iTunes Media/Music/Dillon Francis/This Mixtape is Fire/05 Coming Over (feat. James Hersey).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Dillon Francis & Sultan + Ned Shepard fe/When We Were Young Remixes/02 When We Were Young (Vicetone Remi.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Dirty South & Alesso/Unknown Album/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Dirty South & Alesso/Unknown Album/City Of Dreams (Original Mix).mp3
@@ -862,7 +863,6 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Example/Unknown Album/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Example/Unknown Album/Say Nothing (Hardwell & Dannic Remix.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Fareoh/Run Away - Single/01 Run Away (Original Mix).mp3
-/sdcard/Music/iTunes/iTunes Media/Music/Fareoh/Unknown Album/01 Fight For You (feat. Ethan Thomps.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Fedde Le Grand & Nicky Romero feat. Matt/Unknown Album/Sparks (Vicetone Remix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Fedde Le Grand feat. DI-Rect/Unknown Album/01 Where We Belong (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Fenech-Soler/Fenech Soler/Last Forever (The Chainsmokers Remix.mp3
@@ -891,7 +891,7 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Frank Ocean/channel ORANGE/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Frank Ocean/desktop.ini
 /sdcard/Music/iTunes/iTunes Media/Music/Frank Ocean/Unknown Album/02 02 Thinkin Bout You.mp3
-/sdcard/Music/iTunes/iTunes Media/Music/Friendzone ft. Tyler Fiore/Chasing Paradise/Chasing Paradise (Original Mix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Friendzone ft. Tyler Fiore/Chasing Paradise/02 Chasing Paradise (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Gareth Emery/Concrete Angel (feat. Christina Novelli)/01 Concrete Angel (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Gareth Emery/Concrete Angel (feat. Christina Novelli)/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Gareth Emery/Concrete Angel (feat. Christina Novelli)/AlbumArt_{C67E685A-431C-404A-A938-F9983E65D513}_Large.jpg
@@ -1026,7 +1026,6 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Kid Cudi/Man On The Moon_ The End Of Day (Deluxe/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Kid Cudi/Man On The Moon_ The End Of The Day/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Kid Cudi/Man On The Moon_ The End Of The Day/Folder.jpg
-/sdcard/Music/iTunes/iTunes Media/Music/Kid Cudi/Man On The Moon_ The End Of The Day/In My Dreams (Cudder Anthem).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Kid Cudi/Unknown Album/01 Pursuit of Happiness (Steve Aoki.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Kid Cudi/Unknown Album/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Kid Cudi/Unknown Album/Folder.jpg
@@ -1040,7 +1039,6 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Kid Ink/My Own Lane/03 Show Me Feat. Chris Brown.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Kid Ink/Unknown Album/The New Generation (Prod. By Boi-1da.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Kid Massive, Alex Sayz, Miella/Strong/03 Strong feat. Miella (Filip Jenven.mp3
-/sdcard/Music/iTunes/iTunes Media/Music/Killbeatz/Unknown Album/01 Heroes (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Killbeatz/Unknown Album/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Killbeatz/Unknown Album/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Krewella/desktop.ini
@@ -1131,6 +1129,7 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Mike Posner/Unknown Album/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Mike Posner/Unknown Album/Cooler Than Me.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Mike Posner/Unknown Album/Folder.jpg
+/sdcard/Music/iTunes/iTunes Media/Music/Mike Posner/Unknown Album/I Took A Pill In Ibiza (Seeb Radio E.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/MisterWives & Milkman/Reflections - Remixes/01 Reflections (Milkman Remix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Morgan Page/Unknown Album/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Morgan Page/Unknown Album/Folder.jpg
@@ -1265,7 +1264,6 @@
 /sdcard/Music/iTunes/iTunes Media/Music/R3hab feat. Eva Simons/Unknown Album/01 Unstoppable (Extended Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Rick Mitchells/Unknown Album/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Rick Mitchells/Unknown Album/Folder.jpg
-/sdcard/Music/iTunes/iTunes Media/Music/Rick Mitchells/Unknown Album/Jinxed (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Rihanna/desktop.ini
 /sdcard/Music/iTunes/iTunes Media/Music/Rihanna/Unapologetic/09 Stay (Feat. Mikky Ekko).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Rihanna/Unapologetic/AlbumArtSmall.jpg
@@ -1346,7 +1344,6 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Swanky Tunes feat. C. Todd Nielsen/Unknown Album/Fire In Our Hearts (Original Mix) [R.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Swanky Tunes feat. C. Todd Nielsen/Unknown Album/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Swedish House Mafia/desktop.ini
-/sdcard/Music/iTunes/iTunes Media/Music/Swedish House Mafia/Greyhound - Single/01 Greyhound.m4a
 /sdcard/Music/iTunes/iTunes Media/Music/Swedish House Mafia/Greyhound - Single/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Swedish House Mafia/Greyhound - Single/AlbumArt_{99B23C1C-7A2C-4ECB-AAA0-D8E1A8A6E4B8}_Large.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Swedish House Mafia/Greyhound - Single/AlbumArt_{99B23C1C-7A2C-4ECB-AAA0-D8E1A8A6E4B8}_Small.jpg
@@ -1486,15 +1483,16 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Usher/Scream - Single/Thumbs.db
 /sdcard/Music/iTunes/iTunes Media/Music/Usher/Unknown Album/01 Somebody To Love.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Usher Feat. Juicy J/Unknown Album/I Don't Mind (feat. Juicy J).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Various Artists/vk.com_edm_people/01 Heroes (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Vicetone/United We Dance/01 United We Dance (Radio Edit).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Vicetone/Unknown Album/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Vicetone/Unknown Album/Chasing Time (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Vicetone/Unknown Album/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Vicetone/Unknown Album/Tremble (Original Mix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Vicetone/#EDM_Wednesday/02 White Lies (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Vicetone feat. Barack Obama/Vicetone/01 Hope (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Vicetone feat. Barack Obama/Vicetone/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Vicetone feat. Barack Obama/Vicetone/Folder.jpg
-/sdcard/Music/iTunes/iTunes Media/Music/Vicetone feat. Chloe Angelides/#EDM_Wednesday/White Lies (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Vicetone feat. Collin McLoughlin/Unknown Album/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Vicetone feat. Collin McLoughlin/Unknown Album/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/Vicetone feat. Collin McLoughlin/Unknown Album/Heartbeat (Original Mix).mp3
@@ -1508,12 +1506,8 @@
 /sdcard/Music/iTunes/iTunes Media/Music/vk.com_edm_people/Wicked Child/02 Wicked Child (Paris & Simo Remix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/vk.com_edm_people/Wicked Child/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/vk.com_edm_people/Wicked Child/Folder.jpg
-/sdcard/Music/iTunes/iTunes Media/Music/W&W/Thunder/01 Thunder (Original Mix).mp3
-/sdcard/Music/iTunes/iTunes Media/Music/W&W/Thunder/AlbumArtSmall.jpg
-/sdcard/Music/iTunes/iTunes Media/Music/W&W/Thunder/Folder.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/W&W/Unknown Album/AlbumArtSmall.jpg
 /sdcard/Music/iTunes/iTunes Media/Music/W&W/Unknown Album/Folder.jpg
-/sdcard/Music/iTunes/iTunes Media/Music/W&W/Unknown Album/Impact (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/W&W/Unknown Album/Lift Off! (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/W&W/Unknown Album/Moscow (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/W&W & Ummet Ozcan/Unknown Album/AlbumArtSmall.jpg
@@ -1592,6 +1586,7 @@
 /sdcard/Music/iTunes/iTunes Media/Music/David Bulla, LarsM, Preon/Unknown Album/Break Through.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Disclosure Feat Sam Smith/Unknown Album/Latch (J-Kraken Remix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Disco Fries & Gazzo feat. Jones/Unknown Album/01 Follow Me (Original Mix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Disco Fries & Gazzo feat. Jones/Follow Me/01 Follow Me (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/DJ Snake & Lil John/Unknown Album/Turn Down For What (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Dropout/Slowly/Slowly.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Dyro feat. Radboud/Unknown Album/You Gotta Know (Original Mix).mp3
@@ -1599,7 +1594,7 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Galantis/Pharmacy/08 Call If You Need Me.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Galantis/Unknown Album/01 You (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Galantis/Unknown Album/Runaway.mp3
-/sdcard/Music/iTunes/iTunes Media/Music/Galantis/vk.com_speeeedy/Firebird.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Galantis/Unknown Album/Firebird.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/HELENA ft. Shawnee Taylor/Unknown Album/Levity (Fareoh Remix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Jakob Liedholm/Unknown Album/Endless Vs. Close Your Eyes.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Jenaux Ft. Jared Lee/Unknown Album/Turn Your World Around (Laidback Luk.mp3
@@ -1626,6 +1621,7 @@
 /sdcard/Music/iTunes/iTunes Media/Music/The Colourist/Unknown Album/We Won't Go Home (The Jane Doze Remi.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Thomas Gold feat. Kaelyn Behr/Unknown Album/01 Remember (WasteLand Remix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Dada Life/One Last Night on Earth (Remixes) - EP b/04 One Last Night on Earth (Young Bo.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/POWERS/Unknown Album/Beat Of My Drum (White Panda Remix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Tritonal & Cash Cash/Unknown Album/Untouchable (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Tritonal feat. Jonathan Mendelsohn/Unknown Album/01 Satellite (Extended Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Young Money/Unknown Album/Bitches Love Me ( ft.Drake , Future).mp3
@@ -1633,7 +1629,6 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Lemaitre feat. Jennie A/Unknown Album/Closer (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Vicetone ft. Kat Nestel/Unknown Album/Nothing Stopping Me (Radio Edit).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Throttle feat. David Specter/Single/01 Together.mp3
-/sdcard/Music/iTunes/iTunes Media/Music/Elephante feat. RUMORS/I Want You/I Want You (Original Mix).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Hayden James/ODESZA Remix/15 Something About You (ODESZA Remix.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Honka & Cuebrick/Unknown Album/Alive.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/http___vk.com_revealedrecordings_wav/Unknown Album/The Universe (Original Mix).mp3
@@ -1642,6 +1637,24 @@
 /sdcard/Music/iTunes/iTunes Media/Music/Thomas Hayes ft. Joni Fatora/Unknown Album/Neon.mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Tommy Trash Feat. JHart/Unknown Album/Wake The Giant (Radio Edit).mp3
 /sdcard/Music/iTunes/iTunes Media/Music/Pitch Perfect/Pitch Perfect 2 (Original Motion Picture/17 Flashlight.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/The White Panda/Firefly Music Festival Mixtape 2015/03 Shut Up And Dance With Me (WALK T.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/The White Panda/Unknown Album/Lean On To The Next One (Jay Z __ Ma.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Betty Who/Unknown Album/All Of You (Havsun Remix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Charlie Puth/Unknown Album/Marvin Gaye.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Charlie Puth/Unknown Album/The 90's.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Foster The People/Best Friend (lost kings Remix)/Best Friend (lost kings Remix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Katelyn Tarver/Unknown Album/01 Weekend Millionaires (Young Bombs.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Kelly Clarkson, Audien, Mike Taylor/Singles/Catch The World (FrankCarmine Mashup.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/LeVert/Fight For You (feat. Ethan Tho/01 Fight For You (feat. Ethan Thomps.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Seven Lions & Adventure Club/Unknown Album/Lose Myself & Fade Away (Adventure C.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Skrux X Zedd X Galantis/Unknown Album/Our Clarity.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/SVRGE x Years & Years/King/King.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/The Chainsmokers ft. Rozes/Unknown Album/Roses (Mitchell Clinkenbeard Remix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Z2/I Want You/02 I Want You (Original Mix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Alesso ft. Roy English/Unknown Album/Cool (Two Friends Remix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Alesso ft. Roy English/www.facebook.com_twofriendsmusic/Cool (Two Friends Remix).mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Mako Feat. Madison Beer/Unknown Album/01 I Wont Let You Walk Away (Lost Ki.mp3
+/sdcard/Music/iTunes/iTunes Media/Music/Tori Kelly/Tori Kelly/15 Dear No One (Bonus Track).mp3
 /sdcard/Music/iTunes/sentinel
 /sdcard/Music/iTunes/Previous iTunes Libraries/iTunes Library 2011-10-14.itl
 /sdcard/Music/iTunes/Previous iTunes Libraries/iTunes Library 2011-12-07.itl
@@ -1658,4 +1671,3 @@
 /sdcard/Music/Nadia Ali, Starkillers & Alex Kenji - Pressure (Alesso Remix).mp3
 /sdcard/Music/Tiesto - Escape Me feat. CC Sheffield.mp3
 /sdcard/Music/Tiesto Ft. Tegan & Sara - Feel It In My Bones.mp3
-/sdcard/Music/iTunes\iTunes Media\Music\Honka & Cuebrick\Unknown Album\Alive.mp3
