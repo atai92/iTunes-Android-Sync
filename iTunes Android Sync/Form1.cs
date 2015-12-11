@@ -426,13 +426,13 @@ namespace iTunes_Android_Sync
                 System.IO.StreamWriter addFiles_bat = new System.IO.StreamWriter("addFiles.bat");
                 foreach (string element in filesNeeded)
                 {
-                    //AddText(console, "adb push " + element + " " + Android + element.Substring(PC.Length) + "\n");
-                    cmd(("adb -d push \"" + PCSyncDirectory.Text + element + "\" \"" + AndroidSyncDirectory.Text + element + "\"").Replace("\\","/"), false);
-                    addFiles_bat.WriteLine(("adb -d push \"" + PCSyncDirectory.Text + element + "\" \"" + AndroidSyncDirectory.Text + element + "\"").Replace("\\", "/"));
+                    string addFileString = ("adb -d push \"" + PCSyncDirectory.Text + element + "\" \"" + AndroidSyncDirectory.Text + element + "\"").Replace("\\", "/");
+
+                    cmd(addFileString, false);
+                    addFiles_bat.WriteLine(addFileString);
                 }
                 IncreaseProgress(progressBar, 60);
                 addFiles_bat.Close();
-                //bat("addFiles.bat");
             }
             else
             {
@@ -447,17 +447,33 @@ namespace iTunes_Android_Sync
                 System.IO.StreamWriter rmFiles_bat = new System.IO.StreamWriter("rmFiles.bat");
                 foreach (string element in filesUnneeded)
                 {
-                    //AddText(console, "adb shell rm -f " + element + "\n");
-                    cmd(("adb -d shell rm -f \"" + element + "\""), false); //.Replace("\\","/")
-                    rmFiles_bat.WriteLine(("adb -d shell rm -f \"" + element + "\""));
+                    
+                    string rmFileString = "adb -d shell rm -f \"" + validate(element) + "\"";
+
+                    cmd(rmFileString, false); //.Replace("\\","/")
+                    rmFiles_bat.WriteLine(rmFileString);
                 }
                 IncreaseProgress(progressBar, 20);
                 rmFiles_bat.Close();
             }
-            else
-            {
+        }
 
+        public string validate (string original)
+        {
+            //Need to check to see if string has invalid characters and validate them.
+            //Example: If string has (, ), or & we need to insert a \ infront of each one.
+            if (original.IndexOf("(") > -1 || original.IndexOf(")") > -1 || original.IndexOf("&") > -1) //Preliminary search to see if invalid character exists.
+            {
+                string validatedString = "";
+                foreach (char c in original)
+                {
+                    if (c == '(' || c == ')' || c == '&') validatedString += (string) ("\\" + c);
+                    else validatedString += c;
+                }
+                return validatedString;
             }
+
+            return original;
         }
 
         public Boolean syncable(string src)

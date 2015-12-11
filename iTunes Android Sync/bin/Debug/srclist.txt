@@ -78,12 +78,13 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\08
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\09
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\14
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\15
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\00\00
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\00\15
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\00\00\58D304FFF02B08D1-8A8040E61D678000.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\00\15\58D304FFF02B08D1-121106A423713F00.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\04\10
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\04\10\58D304FFF02B08D1-8188D8B03502BA40.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\05\12
-C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\05\12\58D304FFF02B08D1-0B23CE7AF49E8C50.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\06\03
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\06\05
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\06\03\58D304FFF02B08D1-9C35730A3C3B2360.itc2
@@ -98,12 +99,14 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\15\07
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\00\15\07\58D304FFF02B08D1-B0FFABACE6E5B7F0.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\00
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\01
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\04
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\05
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\07
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\09
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\10
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\11
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\14
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\00\03
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\00\04
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\00\03\58D304FFF02B08D1-7B4F2AA47D01E301.itc2
@@ -116,6 +119,8 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\01\00\58D304F
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\01\02\58D304FFF02B08D1-345625CADADD8211.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\01\08\58D304FFF02B08D1-2794EFB6347A1811.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\01\14\58D304FFF02B08D1-01BB613AC1E53E11.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\04\00
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\04\00\58D304FFF02B08D1-DC67E0897FDF0041.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\05\05
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\05\07
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\05\05\58D304FFF02B08D1-00F44499D6F28551.itc2
@@ -136,6 +141,8 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\11\00\58D304F
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\11\12\58D304FFF02B08D1-FA7415F50F86DCB1.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\14\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\14\15\58D304FFF02B08D1-C7C3D1C778F2FFE1.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\15\02
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\01\15\02\58D304FFF02B08D1-31C0307E93C452F1.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\02\00
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\02\01
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\02\02
@@ -181,6 +188,7 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\02\15\01
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\02\15\13
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\02\15\01\58D304FFF02B08D1-E4B52A1B713F81F2.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\02\15\13\58D304FFF02B08D1-67EF0B77C92DBDF2.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\02\15\13\58D304FFF02B08D1-DCFB6D18485ADDF2.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\00
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\01
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\02
@@ -190,18 +198,21 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\05
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\06
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\07
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\08
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\10
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\13
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\14
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\00\02
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\00\05
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\00\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\00\02\58D304FFF02B08D1-9DF0F4A282406203.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\00\05\58D304FFF02B08D1-6A98C7B892D59503.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\00\15\58D304FFF02B08D1-7FD05C12A4C42F03.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\01\07
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\01\12
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\01\07\58D304FFF02B08D1-C5E2DF1CFD834713.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\01\12\58D304FFF02B08D1-A60E864C176BEC13.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\02\13
-C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\02\13\58D304FFF02B08D1-93C7568277420D23.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\03\10
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\03\10\58D304FFF02B08D1-90C1A6A271474A33.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\04\10
@@ -218,6 +229,10 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\08\12
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\08\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\08\12\58D304FFF02B08D1-6D1EB212EB4B3C83.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\08\15\58D304FFF02B08D1-E937C8BB34094F83.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\10\01
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\10\01\58D304FFF02B08D1-BC3338B049C7B1A3.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\13\11
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\13\11\58D304FFF02B08D1-34653430FF8C8BD3.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\14\08
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\14\14
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\03\14\08\58D304FFF02B08D1-5B61DC76DDB0D8E3.itc2
@@ -236,7 +251,9 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\12
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\14
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\01\11
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\02\01
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\02\14
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\02\01\58D304FFF02B08D1-9DA39C220BCCA124.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\02\14\58D304FFF02B08D1-B41C8A8CB79DAE24.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\04\06
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\04\12
@@ -257,13 +274,17 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\10\14\58D304F
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\11\12
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\11\12\58D304FFF02B08D1-EE9EBB66CD993CB4.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\12\05
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\12\13
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\12\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\12\05\58D304FFF02B08D1-DA286F51C491B5C4.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\12\13\58D304FFF02B08D1-E09FD048EEACFDC4.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\12\15\58D304FFF02B08D1-36ADC130FA060FC4.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\14\05
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\15\02
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\15\14
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\15\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\15\14\58D304FFF02B08D1-B14D9EF380AB9EF4.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\04\15\15\58D304FFF02B08D1-CF09A037007AFFF4.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\01
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\02
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\03
@@ -287,11 +308,16 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\03\07
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\03\07\58D304FFF02B08D1-D3CE3356D7DF0735.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\04\04
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\04\06
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\04\13
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\04\04\58D304FFF02B08D1-E0432394F33C8445.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\04\06\58D304FFF02B08D1-397A2D8709520645.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\04\13\58D304FFF02B08D1-0A095029A9576D45.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\04\13\58D304FFF02B08D1-99C24FA6E3333D45.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\05\00
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\05\01
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\05\08
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\05\00\58D304FFF02B08D1-4A201607C0195055.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\05\01\58D304FFF02B08D1-848D9592B2A17155.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\05\08\58D304FFF02B08D1-8F4588412EDA6855.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\06\07
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\05\06\07\58D304FFF02B08D1-8CD1344125278765.itc2
@@ -317,6 +343,7 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\08
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\09
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\10
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\11
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\12
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\13
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\00\00
@@ -352,6 +379,8 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\10\13
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\10\13\58D304FFF02B08D1-EBEF6AEE4DAB9DA6.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\11\10
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\11\10\58D304FFF02B08D1-E28E4BF45A0EEAB6.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\12\03
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\12\03\58D304FFF02B08D1-201FEFF585F1B3C6.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\13\00
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\13\00\58D304FFF02B08D1-105B7A3218DD30D6.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\06\13\00\58D304FFF02B08D1-FD9216CEE89570D6.itc2
@@ -389,7 +418,9 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\07\02\09\58D304F
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\07\03\11
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\07\03\11\58D304FFF02B08D1-89A4AA6577A9EB37.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\07\04\02
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\07\04\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\07\04\02\58D304FFF02B08D1-8D4EA61003BE4247.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\07\04\15\58D304FFF02B08D1-8FACD7652F49DF47.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\07\05\06
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\07\05\06\58D304FFF02B08D1-8157B1B6E230A657.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\07\06\04
@@ -419,6 +450,7 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\07\15\11
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\07\15\02\58D304FFF02B08D1-48F5B930098362F7.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\07\15\06\58D304FFF02B08D1-CCEDC452390D56F7.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\07\15\11\58D304FFF02B08D1-FB6CE9F759A68BF7.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\01
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\02
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\03
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\04
@@ -428,6 +460,8 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\09
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\11
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\13
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\14
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\01\09
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\01\09\58D304FFF02B08D1-F3DCA1ACA9535918.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\02\10
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\02\11
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\02\10\58D304FFF02B08D1-896282F78DD04A28.itc2
@@ -450,7 +484,9 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\11\04
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\11\04\58D304FFF02B08D1-B795C078C381E4B8.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\13\06
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\13\06\58D304FFF02B08D1-B71444E92F3F36D8.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\14\10
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\14\11
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\14\10\58D304FFF02B08D1-4841CA2F9A5D7AE8.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\08\14\11\58D304FFF02B08D1-E108E2A01F734BE8.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\09\02
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\09\06
@@ -493,6 +529,7 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\13
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\14
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\00\03
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\00\11
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\00\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\00\03\58D304FFF02B08D1-AE3E702EBC2AD30A.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\00\15\58D304FFF02B08D1-981601C49C26AF0A.itc2
@@ -503,7 +540,9 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\02\01\58D304F
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\02\01\58D304FFF02B08D1-68E579FCB8CF912A.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\02\08\58D304FFF02B08D1-3BE4F490F420082A.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\02\14\58D304FFF02B08D1-FA4AAB1DA5CDEE2A.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\03\01
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\03\09
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\03\01\58D304FFF02B08D1-75FC72871B11013A.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\03\09\58D304FFF02B08D1-BE3074702203F93A.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\04\03
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\04\03\58D304FFF02B08D1-8F8D86CEAD22B34A.itc2
@@ -520,12 +559,18 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\08\07\58D304F
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\08\13\58D304FFF02B08D1-C1BC241CB4940D8A.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\08\15\58D304FFF02B08D1-A8697E034AFC2F8A.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\09\01
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\09\08
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\09\14
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\09\01\58D304FFF02B08D1-6B45DA3C4669919A.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\09\08\58D304FFF02B08D1-ADAE6B851043489A.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\09\14\58D304FFF02B08D1-6A7B1FA97DBC9E9A.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\12\07
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\12\07\58D304FFF02B08D1-44E75D8CA21B07CA.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\13\04
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\13\04\58D304FFF02B08D1-F8EDA04B1AE834DA.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\14\00
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\14\15
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\14\00\58D304FFF02B08D1-C021FCA882C390EA.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\14\15\58D304FFF02B08D1-581064AFDE856FEA.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\15\00
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\15\02
@@ -539,6 +584,7 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\15\10\58D304F
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\10\15\14\58D304FFF02B08D1-BDA461935BD28EFA.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\01
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\02
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\03
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\06
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\07
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\08
@@ -552,7 +598,11 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\01\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\01\09\58D304FFF02B08D1-6DA4B06534E5D91B.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\01\15\58D304FFF02B08D1-3EAC2D3D6B229F1B.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\02\07
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\02\14
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\02\07\58D304FFF02B08D1-8DAD81F5F4A5072B.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\02\14\58D304FFF02B08D1-FF0CAF3C67F5DE2B.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\03\10
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\03\10\58D304FFF02B08D1-AA2DF454F48A6A3B.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\06\05
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\06\05\58D304FFF02B08D1-1243ABA93748556B.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\07\01
@@ -567,7 +617,9 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\09\02\58D304F
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\10\14
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\10\14\58D304FFF02B08D1-F3BDDBE88AF69EAB.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\12\06
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\12\14
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\12\06\58D304FFF02B08D1-9A6281388D98E6CB.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\12\14\58D304FFF02B08D1-D7A595E051123ECB.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\13\03
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\13\09
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\11\13\11
@@ -586,6 +638,7 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\12\11
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\12\13
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\12\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\12\00\14
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\12\00\14\58D304FFF02B08D1-DE39AB5AF27DCE0C.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\12\00\14\58D304FFF02B08D1-DFF9F22B22213E0C.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\12\02\00
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\12\02\07
@@ -632,8 +685,10 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\08\02
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\08\02\58D304FFF02B08D1-86B3C6845627428D.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\09\08
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\09\10
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\09\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\09\08\58D304FFF02B08D1-BBE9594810C8889D.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\09\10\58D304FFF02B08D1-184964A1644DCA9D.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\09\15\58D304FFF02B08D1-DF29C633A4C33F9D.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\10\07
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\10\14
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\10\07\58D304FFF02B08D1-8913654BE79597AD.itc2
@@ -641,7 +696,9 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\10\14\58D304F
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\11\07
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\11\07\58D304FFF02B08D1-3D4609F88F34A7BD.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\14\01
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\14\02
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\14\01\58D304FFF02B08D1-E09DDC882FACD1ED.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\14\02\58D304FFF02B08D1-4239CFAEA96D02ED.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\15\04
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\13\15\04\58D304FFF02B08D1-164F6165E22274FD.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\00
@@ -680,17 +737,23 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\08\02\58D304F
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\08\11\58D304FFF02B08D1-6AC7B50FE9485B8E.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\09\06
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\09\12
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\09\13
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\09\12\58D304FFF02B08D1-6ED7B9C57D5FAC9E.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\09\13\58D304FFF02B08D1-187E8B5566DBFD9E.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\10\02
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\10\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\10\02\58D304FFF02B08D1-050060E3D85902AE.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\10\15\58D304FFF02B08D1-9D768CF8BE0C1FAE.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\11\05
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\11\09
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\11\05\58D304FFF02B08D1-9129C39191C845BE.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\11\09\58D304FFF02B08D1-4F6D296EAD45E9BE.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\12\09
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\12\09\58D304FFF02B08D1-7FEEBB5A2877C9CE.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\13\00
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\13\05
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\13\00\58D304FFF02B08D1-A04D12985CA0E0DE.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\13\05\58D304FFF02B08D1-8AF2608615DB25DE.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\15\01
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\15\13
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\14\15\14
@@ -720,7 +783,9 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\15\06\11\58D304F
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\15\07\10
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\15\07\10\58D304FFF02B08D1-CA787C15E81F0A7F.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\15\08\01
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\15\08\05
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\15\08\01\58D304FFF02B08D1-E91DCB1CE8C9618F.itc2
+C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\15\08\05\58D304FFF02B08D1-655479B471C9F58F.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\15\09\02
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\15\12\05
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\15\12\10
@@ -730,15 +795,18 @@ C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\15\12\10\58D304F
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\15\13\06
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\15\13\06\58D304FFF02B08D1-104E5C5EEDCA26DF.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\15\14\00
-C:\Users\Alan\Music\iTunes\Album Artwork\Cache\58D304FFF02B08D1\15\14\00\58D304FFF02B08D1-E61C0B48E08B40EF.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Generated\58D304FFF02B08D1
 C:\Users\Alan\Music\iTunes\Album Artwork\Generated\58D304FFF02B08D1\02
+C:\Users\Alan\Music\iTunes\Album Artwork\Generated\58D304FFF02B08D1\03
 C:\Users\Alan\Music\iTunes\Album Artwork\Generated\58D304FFF02B08D1\06
 C:\Users\Alan\Music\iTunes\Album Artwork\Generated\58D304FFF02B08D1\02\08
 C:\Users\Alan\Music\iTunes\Album Artwork\Generated\58D304FFF02B08D1\02\15
 C:\Users\Alan\Music\iTunes\Album Artwork\Generated\58D304FFF02B08D1\02\08\09
 C:\Users\Alan\Music\iTunes\Album Artwork\Generated\58D304FFF02B08D1\02\08\09\58D304FFF02B08D1-489B5A1E5411D982.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Generated\58D304FFF02B08D1\02\15\07
+C:\Users\Alan\Music\iTunes\Album Artwork\Generated\58D304FFF02B08D1\03\00
+C:\Users\Alan\Music\iTunes\Album Artwork\Generated\58D304FFF02B08D1\03\00\01
+C:\Users\Alan\Music\iTunes\Album Artwork\Generated\58D304FFF02B08D1\03\00\01\58D304FFF02B08D1-B94CCB475C606103.itc2
 C:\Users\Alan\Music\iTunes\Album Artwork\Generated\58D304FFF02B08D1\06\06
 C:\Users\Alan\Music\iTunes\Album Artwork\Generated\58D304FFF02B08D1\06\06\08
 C:\Users\Alan\Music\iTunes\Album Artwork\Generated\58D304FFF02B08D1\06\06\08\58D304FFF02B08D1-9972F4B4BD466866.itc2
@@ -757,6 +825,7 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Adam Szabo & Johan Vilborg
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Adventure Club feat. Yuna
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Afrojack & Shermanology
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Afrojack ft Clinton Sparks
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Afrojack Ft. Wrabel
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Aiden Grimshaw
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Alesso
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Alesso ft. Roy English
@@ -786,6 +855,7 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Arty vs. Arston
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Arty, Matisse
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Askery & Lash feat. Laurell
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Astronaut Ft. Harry Brooks Jnr_
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\ATB
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Atlas Genius
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Audien
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Automatically Add to iTunes
@@ -881,6 +951,7 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Fareoh
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Fedde Le Grand & Nicky Romero feat. Matt
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Fedde Le Grand feat. DI-Rect
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Felix Cartal
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Felix Cartal ft. Ofelia
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Fenech-Soler
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Ferry Corsten & Aruna
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Ferry Corsten feat. Duane Harden
@@ -942,6 +1013,8 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Katelyn Tarver
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Katy Perry
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kay, Steve Aoki, Angger Dimas
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kelly Clarkson, Audien, Mike Taylor
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Ken Loi ft. Audrianna Cole
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Ken Loi, Codi
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kevin Wild & Punk Party ft. Kelly Sweet
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kid Arkade
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kid Cudi
@@ -965,6 +1038,7 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Lush & Simon
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\M-3ox Ft. Heidrun
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Macklemore and Ryan Lewis
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Macklemore_Ryan Lewis
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Madeon
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Magic
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\MAGIC!
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\MAKJ & Henry Fong
@@ -992,10 +1066,12 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Milkman
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\MisterWives
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\MisterWives & Milkman
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Morgan Page
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Morgan Page & Michael S_
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\MOTi
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Nadia Ali
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Nasri
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Natalie La Rose
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Nathan Sykes
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Naughty Boy (feat. Sam Smith)
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Ne-Yo
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Neon Trees
@@ -1011,6 +1087,7 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Nordean
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\ODESZA
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\ODESZA ft. Shy Girls
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Of Monsters And Men
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Oh Be Clever
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Olly Murs
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Omarion
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\One Direction
@@ -1019,7 +1096,6 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\OneRepublic
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Oral Tunerz
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Osamuraisan
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\P!nk
-C:\Users\Alan\Music\iTunes\iTunes Media\Music\Paniek
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Paramore
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Paris & Simo
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Paris & Simo feat. Gabrielle Ross
@@ -1029,6 +1105,7 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Passenger
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Patrick Hagenaar feat. Marky Hartley
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Paul Oakenfold & Disfunktion feat. Spitf
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Paul Oakenfold & J Hart
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Phoebe Ryan
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Pierce Fulton
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Pierce Fulton feat. Bebe Rexha
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Pitch Perfect
@@ -1043,6 +1120,7 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\R3hab & NERVO & Ummet Ozcan
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\R3hab feat. Eva Simons
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Rick Mitchells
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Rihanna
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Rudimental
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Ryos
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Saints of Valory
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sam Smith
@@ -1050,6 +1128,7 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sander van Doorn
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sander van Doorn vs. DubVision & Mako
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sander Van Doorn, Martin Garrix & DVBBS
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sander Van Doorn, Mayaeni
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Savoy & Sound Remedy
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sebastian Ingrosso & Alesso ft. Ryan Ted
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sebastian Ingrosso & Tommy Trash
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sebastien Drums & Whelan & Di Scala
@@ -1073,6 +1152,7 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Starkillers feat. Black Boots
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Starkillers Feat. Nadia Ali
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Steve Aoki & Rune RK feat. RAS
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Strange Talk
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sultan & Ned Shepard
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sunny Lax
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Suspect 44 feat. RUMORS
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\SVRGE x Years & Years
@@ -1083,12 +1163,15 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Taio Cruz
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Take That
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Taylor Swift
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Aston Shuffle Vs. Tommy Trash
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Chainsmokers
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Chainsmokers & Tritonal feat. Emily
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Chainsmokers ft. Rozes
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Colourist
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Grand
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Killers
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Potbelleez
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Secret State
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Soundmen
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Wanted
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Weeknd
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The White Panda
@@ -1121,6 +1204,7 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Tritonal feat. Jonathan Mendelsohn
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Tritonal feat. Underdown
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\twenty one pilots
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Two Door Cinema Club
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\tyDi feat Dia Frampton
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Unknown Artist
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\UntzBeats
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\URBANMUSiCDAiLY.NET
@@ -1156,6 +1240,7 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\ZHU
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\[musiczone514.com]
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\[www.recordbeat.ru]
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\???ú???
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\??
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\(www.GRIZZLIS.LT)\(www.GRIZZLIS.LT)
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\(www.GRIZZLIS.LT)\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\(www.GRIZZLIS.LT)\(www.GRIZZLIS.LT)\07 The One That Got Away.mp3
@@ -1202,6 +1287,8 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Afrojack & Shermanology\Can't Stop
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Afrojack & Shermanology\Can't Stop Me\Folder.jpg
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Afrojack ft Clinton Sparks\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Afrojack ft Clinton Sparks\Unknown Album\Be With You.mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Afrojack Ft. Wrabel\Unknown Album
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Afrojack Ft. Wrabel\Unknown Album\Ten Feet Tall (Elephante Remix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Aiden Grimshaw\Is This Love - EP
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Aiden Grimshaw\Is This Love - EP\03 Is This Love (DubVision Remix).m4a
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Alesso\desktop.ini
@@ -1213,8 +1300,8 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Alesso\Under Control\02 Under Cont
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Alesso\Unknown Album\Years.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Alesso ft. Roy English\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Alesso ft. Roy English\www.facebook.com_twofriendsmusic
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Alesso ft. Roy English\Unknown Album\Cool (Two Friends Remix) 2.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Alesso ft. Roy English\Unknown Album\Cool (Two Friends Remix).mp3
-C:\Users\Alan\Music\iTunes\iTunes Media\Music\Alesso ft. Roy English\www.facebook.com_twofriendsmusic\Cool (Two Friends Remix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Alesso vs. Keane\desktop.ini
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Alesso vs. Keane\Silenced By The Night
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Alesso vs. Keane\Tritonal & Juventa feat. Micky Blue
@@ -1296,6 +1383,8 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Askery & Lash feat. Laurell\Float 
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Askery & Lash feat. Laurell\Float Alone\01 Float Alone (Original Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Astronaut Ft. Harry Brooks Jnr_\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Astronaut Ft. Harry Brooks Jnr_\Unknown Album\Champions (Original Mix).mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\ATB\Unknown Album
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\ATB\Unknown Album\Flash X.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Atlas Genius\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Atlas Genius\Unknown Album\Symptoms (Pierce Fulton Remix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Audien\desktop.ini
@@ -1381,6 +1470,7 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Calvin Harris\Motion
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Calvin Harris\We'll Be Coming Back (feat. Example) [Re
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Calvin Harris\Feel So Close\2-08 Feel So Close.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Calvin Harris\Motion\06 Outside (feat. Ellie Goulding).mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Calvin Harris\Motion\12 Open Wide (feat. Big Sean).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Calvin Harris\We'll Be Coming Back (feat. Example) [Re\01 We'll Be Coming Back.m4a
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Calvin Harris feat Florence Welch\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Calvin Harris feat Florence Welch\Unknown Album\Sweet Nothing (Tiesto Remix).mp3
@@ -1445,8 +1535,9 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Conor Maynard Feat. Ne-Yo\Unknown 
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Conor Maynard Feat. Ne-Yo\Unknown Album\AlbumArtSmall.jpg
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Conor Maynard Feat. Ne-Yo\Unknown Album\Folder.jpg
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Conor Maynard Feat. Ne-Yo\Unknown Album\Turn Around (Prod. By Stargate).mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Dada Life\One Last Night on Earth (Remixes)
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Dada Life\One Last Night on Earth (Remixes) - EP b
-C:\Users\Alan\Music\iTunes\iTunes Media\Music\Dada Life\One Last Night on Earth (Remixes) - EP b\04 One Last Night on Earth (Young Bo.mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Dada Life\One Last Night on Earth (Remixes)\04 One Last Night on Earth (Young Bo.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Daddy's Groove\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Daddy's Groove\Unknown Album\Stellar (Extended Club Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Daddy's Groove ft Mindshake\Unknown Album
@@ -1560,7 +1651,9 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Ehrencrona\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Ehrencrona\Unknown Album\This Is So Good (Original Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\electrotunes.ru\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\electrotunes.ru\Unknown Album\Now Or Never (Original Mix).mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Elephante\Age of Innocence
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Elephante\Shooting Stars (Bag Raiders Cover)
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Elephante\Age of Innocence\01 Age of Innocence (ft. Trouze & Da.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Elephante\Shooting Stars (Bag Raiders Cover)\01 Shooting Stars (Bag Raiders Cover.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Elephante feat. RUMORS\I Want You
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Ellie Goulding\Lights
@@ -1589,6 +1682,8 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Fedde Le Grand feat. DI-Rect\Unkno
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Fedde Le Grand feat. DI-Rect\Unknown Album\01 Where We Belong (Original Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Felix Cartal\With You (feat. Natalie Angiuli) - Singl
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Felix Cartal\With You (feat. Natalie Angiuli) - Singl\01 With You (Original Mix).mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Felix Cartal ft. Ofelia\Unknown Album
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Felix Cartal ft. Ofelia\Unknown Album\New Scene (CRNKN Remix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Fenech-Soler\Fenech Soler
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Fenech-Soler\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Fenech-Soler\Fenech Soler\Last Forever (The Chainsmokers Remix.mp3
@@ -1670,7 +1765,6 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Honka & Cuebrick\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Honka & Cuebrick\Unknown Album\Alive.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\http___vk.com_ex_energy\http___vk.com_ex_energy
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\http___vk.com_ex_energy\Unknown Album
-C:\Users\Alan\Music\iTunes\iTunes Media\Music\http___vk.com_ex_energy\http___vk.com_ex_energy\02 Atmosphere (Extended Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\http___vk.com_revealedrecordings_wav\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\http___vk.com_revealedrecordings_wav\Unknown Album\The Universe (Original Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\http___www.dfm.ru_\Unknown Album
@@ -1745,10 +1839,12 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Justin Timberlake feat. Jay-Z\Unkn
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Juventa feat. Kelly Sweet\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Juventa feat. Kelly Sweet\Unknown Album\Superhuman (Original Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kaskade\Fire & Ice
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kaskade\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kaskade\Fire & Ice\AlbumArtSmall.jpg
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kaskade\Fire & Ice\AlbumArt_{252CD42B-34F6-4682-997C-D740FB1DE8D6}_Large.jpg
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kaskade\Fire & Ice\AlbumArt_{252CD42B-34F6-4682-997C-D740FB1DE8D6}_Small.jpg
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kaskade\Fire & Ice\Folder.jpg
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kaskade\Unknown Album\02 Atmosphere (Extended Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kaskade & John Dahlback feat. Sansa\A Little More
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kaskade & John Dahlback feat. Sansa\A Little More\01 A Little More (Radio Edit).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kaskade & Swanky Tunes feat. Lights\Unknown Album
@@ -1767,6 +1863,10 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kay, Steve Aoki, Angger Dimas\It's
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kay, Steve Aoki, Angger Dimas\It's the End of the World As We Know It\01 Singularity (Original Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kelly Clarkson, Audien, Mike Taylor\Singles
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kelly Clarkson, Audien, Mike Taylor\Singles\Catch The World (FrankCarmine Mashup.mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Ken Loi ft. Audrianna Cole\Unknown Album
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Ken Loi ft. Audrianna Cole\Unknown Album\Gunsmoke Eyes.mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Ken Loi, Codi\Unknown Album
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Ken Loi, Codi\Unknown Album\Don't Stop The Love feat. Codi (Orig.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kevin Wild & Punk Party ft. Kelly Sweet\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kevin Wild & Punk Party ft. Kelly Sweet\Unknown Album\01 Gravity.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Kid Arkade\Unknown Album
@@ -1840,6 +1940,10 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Macklemore and Ryan Lewis\Singles\
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Macklemore and Ryan Lewis\Singles\Folder.jpg
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Macklemore_Ryan Lewis\Singles
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Macklemore_Ryan Lewis\Singles\02 Wings.mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Madeon\Adventure (Deluxe)
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Madeon\Adventure (Deluxe)\1-02 You're On (feat. Kyan).mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Madeon\Adventure (Deluxe)\1-05 Pay No Mind (feat. Passion Pit).mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Madeon\Adventure (Deluxe)\2-15 The City - Madeon _ Waters, Zak.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Magic\Rude - Single
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Magic\Rude - Single\01 Rude.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\MAGIC!\Rude
@@ -1853,7 +1957,6 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Mako\Unknown Album\Smoke Filled Ro
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Mako Feat. Madison Beer\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Mako Feat. Madison Beer\Unknown Album\01 I Wont Let You Walk Away (Lost Ki.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Maor Levi\Unknown Album
-C:\Users\Alan\Music\iTunes\iTunes Media\Music\Maor Levi\Unknown Album\01 Pixel Hearts (Original Mix) [FDM].mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Maor Levi feat. Daphne\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Maor Levi feat. Daphne\Unknown Album\Beautiful Disaster (Original Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Maor Levi, Norin\Unknown Album
@@ -1888,6 +1991,7 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Matthew Koma\Unknown Album\One Nig
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Max Elto\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Max Elto\Unknown Album\Shadow of the Sun (Michael Brun Remi.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Meghan Trainor\Title (Deluxe)
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Meghan Trainor\Title (Deluxe)\06 Like I'm Gonna Lose You (feat. Jo.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Meghan Trainor\Title (Deluxe)\11 Lips Are Movin.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Michael Calfan\desktop.ini
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Michael Calfan\Resurrection
@@ -1911,6 +2015,8 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\MisterWives & Milkman\Reflections 
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\MisterWives & Milkman\Reflections - Remixes\01 Reflections (Milkman Remix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Morgan Page\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Morgan Page\Unknown Album\Your Love feat. The Outfield (Extend.mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Morgan Page & Michael S_\Unknown Album
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Morgan Page & Michael S_\Unknown Album\Against The World (Original Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\MOTi\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\MOTi\Unknown Album\Dont Go Lose It (Original Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Nadia Ali\Unknown Album
@@ -1918,6 +2024,8 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Nadia Ali\Unknown Album\When It Ra
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Nasri\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Natalie La Rose\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Natalie La Rose\Unknown Album\01 Somebody (feat. Jeremih).mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Nathan Sykes\Over and Over Again - Remixes
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Nathan Sykes\Over and Over Again - Remixes\Over And Over Again (Elephante Exten.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Naughty Boy (feat. Sam Smith)\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Naughty Boy (feat. Sam Smith)\Unknown Album\La La La (White Panda X Gazzo Remix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Ne-Yo\Unknown Album
@@ -1969,6 +2077,8 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\ODESZA ft. Shy Girls\Proximity\All
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Of Monsters And Men\desktop.ini
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Of Monsters And Men\My Head Is An Animal
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Of Monsters And Men\My Head Is An Animal\06 Little Talks.mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Oh Be Clever\Unknown Album
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Oh Be Clever\Unknown Album\Next To You (Elephante Remix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Olly Murs\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Olly Murs\Unknown Album\Troublemaker.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Omarion\Unknown Album
@@ -2000,8 +2110,6 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\P!nk\The Truth About Love
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\P!nk\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\P!nk\The Truth About Love\04 Just Give Me A Reason (feat. Nate.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\P!nk\Unknown Album\Blow Me (One Last Kiss).mp3
-C:\Users\Alan\Music\iTunes\iTunes Media\Music\Paniek\Revealed Recordings Presents Miami Sampl
-C:\Users\Alan\Music\iTunes\iTunes Media\Music\Paniek\Revealed Recordings Presents Miami Sampl\02 Spark It Up (Original Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Paramore\Paramore
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Paramore\Paramore\Still Into You.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Paris & Simo\edm people
@@ -2023,6 +2131,8 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Paul Oakenfold & Disfunktion feat.
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Paul Oakenfold & Disfunktion feat. Spitf\Unknown Album\Beautiful World.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Paul Oakenfold & J Hart\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Paul Oakenfold & J Hart\Unknown Album\Touched By You (Tom Swoon Remix).mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Phoebe Ryan\NightcoreReality
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Phoebe Ryan\NightcoreReality\Mine.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Pierce Fulton\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Pierce Fulton\Unknown Album\Runaway (Original Cut Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Pierce Fulton feat. Bebe Rexha\Unknown Album
@@ -2058,6 +2168,8 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Rihanna\Unapologetic
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Rihanna\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Rihanna\Unapologetic\09 Stay (Feat. Mikky Ekko).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Rihanna\Unknown Album\What Now (R3hab Remix).mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Rudimental\Unknown Album
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Rudimental\Unknown Album\Free (Cash Cash X Gazzo).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Ryos\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Ryos\Unknown Album\Eclipse (feat. Allisa Rose).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Saints of Valory\Unknown Album
@@ -2080,6 +2192,8 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sander Van Doorn, Martin Garrix & 
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sander Van Doorn, Martin Garrix & DVBBS\Unknown Album\01 Gold Skies (Original Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sander Van Doorn, Mayaeni\Nothing Inside
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sander Van Doorn, Mayaeni\Nothing Inside\Nothing Inside (Original Mix).mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Savoy & Sound Remedy\Leaving You
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Savoy & Sound Remedy\Leaving You\01 Leaving You (feat. Jojee).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sebastian Ingrosso & Alesso ft. Ryan Ted\Calling (Lose My Mind)
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sebastian Ingrosso & Alesso ft. Ryan Ted\Calling (Lose My Mind)\Calling (Lose My Mind).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sebastian Ingrosso & Tommy Trash\desktop.ini
@@ -2142,6 +2256,8 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Steve Aoki & Rune RK feat. RAS\Unk
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Steve Aoki & Rune RK feat. RAS\Unknown Album\01 Bring You To Life (Transcend) (Ra.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Strange Talk\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Strange Talk\Unknown Album\Young Hearts (The Chainsmokers Remix.mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sultan & Ned Shepard\Unknown Album
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sultan & Ned Shepard\Unknown Album\All These Roads (Extended Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sunny Lax\Isla Margarita__Naida-WEB
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Sunny Lax\Isla Margarita__Naida-WEB\01 Isla Margarita (Original Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Suspect 44 feat. RUMORS\Here Right Now
@@ -2174,6 +2290,9 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Taylor Swift\1989\06 Shake It Off.
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Taylor Swift\I Knew You Were Trouble. - Single\01 I Knew You Were Trouble..mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Aston Shuffle Vs. Tommy Trash\Sunrise
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Aston Shuffle Vs. Tommy Trash\Sunrise\01 Sunrise (Won't Get Lost) (Tommy T.mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Chainsmokers\Unknown Album
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Chainsmokers\Unknown Album\03 Until You Were Gone (Original Mix.mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Chainsmokers & Tritonal feat. Emily\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Chainsmokers ft. Rozes\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Chainsmokers ft. Rozes\Unknown Album\Roses (Mitchell Clinkenbeard Remix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Colourist\Unknown Album
@@ -2187,6 +2306,8 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Potbelleez\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Potbelleez\Unknown Album\Saved In A Bottle.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Secret State\The Biggest Mistake (Remix) [feat. Akon
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Secret State\The Biggest Mistake (Remix) [feat. Akon\01 The Biggest Mistake (Remix) [feat.mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Soundmen\Unknown Album
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Soundmen\Unknown Album\My Friends (Elephante Remix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Wanted\Battleground
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Wanted\desktop.ini
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\The Wanted\Battleground\09 Glad You Came.mp3
@@ -2278,6 +2399,8 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\twenty one pilots\Guns For Hands R
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\twenty one pilots\Guns For Hands Remixes\01 Guns For Hands (Dzeko & Torres Re.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Two Door Cinema Club\Can Talk Remixes [Vinyl]
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Two Door Cinema Club\Can Talk Remixes [Vinyl]\Sleep Alone (Chainsmokers Remix).mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\tyDi feat Dia Frampton\Unknown Album
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\tyDi feat Dia Frampton\Unknown Album\Stay (Frank Pole Remix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Unknown Artist\channel ORANGE
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Unknown Artist\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Unknown Artist\channel ORANGE\Thumbs.db
@@ -2310,7 +2433,6 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\Vicetone\United We Dance\01 United
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Vicetone\Unknown Album\Chasing Time (Original Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Vicetone\Unknown Album\Tremble (Original Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Vicetone feat. Barack Obama\Vicetone
-C:\Users\Alan\Music\iTunes\iTunes Media\Music\Vicetone feat. Barack Obama\Vicetone\01 Hope (Original Mix).mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Vicetone feat. Chloe Angelides\#EDM_Wednesday
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Vicetone feat. Collin McLoughlin\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\Vicetone feat. Collin McLoughlin\Unknown Album\Heartbeat (Original Mix).mp3
@@ -2394,6 +2516,8 @@ C:\Users\Alan\Music\iTunes\iTunes Media\Music\[www.recordbeat.ru]\Unknown Album
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\[www.recordbeat.ru]\Unknown Album\Hysteria.mp3
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\???ú???\Man On The Moon_ The End Of The Day
 C:\Users\Alan\Music\iTunes\iTunes Media\Music\???ú???\Man On The Moon_ The End Of The Day\01 In My Dreams (Cudder Anthem).mp3
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\??\???
+C:\Users\Alan\Music\iTunes\iTunes Media\Music\??\???\??.mp3
 C:\Users\Alan\Music\iTunes\Previous iTunes Libraries\iTunes Library 2011-10-14.itl
 C:\Users\Alan\Music\iTunes\Previous iTunes Libraries\iTunes Library 2011-12-07.itl
 C:\Users\Alan\Music\iTunes\Previous iTunes Libraries\iTunes Library 2012-03-22.itl
