@@ -7,3 +7,4 @@ C:\Users\Alan\Documents\GitHub\iTunes Android Sync\iTunes Android Sync\obj\Debug
 C:\Users\Alan\Documents\GitHub\iTunes Android Sync\iTunes Android Sync\obj\Debug\iTunes Android Sync.exe
 C:\Users\Alan\Documents\GitHub\iTunes Android Sync\iTunes Android Sync\obj\Debug\iTunes Android Sync.pdb
 C:\Users\Alan\Documents\GitHub\iTunes Android Sync\iTunes Android Sync\obj\Debug\iTunes_Android_Sync.MainWindow.resources
+C:\Users\Alan\Documents\GitHub\iTunes Android Sync\iTunes Android Sync\obj\Debug\iTunes_Android_Sync.Settings.resources

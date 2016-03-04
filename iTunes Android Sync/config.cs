@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Keeping for future reference. **DEPRECATED**
 namespace iTunes_Android_Sync
 {
     public class config
