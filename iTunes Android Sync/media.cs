@@ -35,13 +35,13 @@ namespace iTunes_Android_Sync
         public static string validate(string original)
         {
             //Need to check to see if string has invalid characters and validate them.
-            //Example: If string has (, ), or & we need to insert a \ infront of each one.
-            if (original.IndexOf("(") > -1 || original.IndexOf(")") > -1 || original.IndexOf("&") > -1) //Preliminary search to see if invalid character exists.
+            //Example: If string has ' ', '(', ')', or '&' we need to insert a \ infront of each one.
+            if (original.IndexOf("(") > -1 || original.IndexOf(")") > -1 || original.IndexOf("&") > -1 || original.IndexOf(" ") > -1) //Preliminary search to see if invalid character exists.
             {
                 string validatedString = "";
                 foreach (char c in original)
                 {
-                    if (c == '(' || c == ')' || c == '&') validatedString += (string)("\\" + c);
+                    if (c == '(' || c == ')' || c == '&' || c == ' ') validatedString += (string)("\\" + c);
                     else validatedString += c;
                 }
                 return validatedString;

@@ -59,7 +59,6 @@
             // 
             // bSync_button
             // 
-            this.bSync_button.Enabled = false;
             this.bSync_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bSync_button.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bSync_button.ForeColor = System.Drawing.Color.Black;

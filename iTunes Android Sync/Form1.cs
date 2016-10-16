@@ -23,6 +23,7 @@ namespace iTunes_Android_Sync
 
         //Background worker to do the heavy lifting, so the UI does not get slowed down.
         private System.ComponentModel.BackgroundWorker forward_backgroundWorker = new BackgroundWorker();
+        private System.ComponentModel.BackgroundWorker backward_backgroundWorker = new BackgroundWorker();
 
         //Used to toggle window status.
         Boolean hidden = false;
@@ -34,7 +35,12 @@ namespace iTunes_Android_Sync
             forward_backgroundWorker.WorkerSupportsCancellation = true;
             forward_backgroundWorker.WorkerReportsProgress = false;
             forward_backgroundWorker.DoWork += new DoWorkEventHandler(forward_backgroundWorker_DoWork);
-            forward_backgroundWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(forward_backgroundWorker_RunWorkerCompleted);
+            forward_backgroundWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(forwardbackward_workerCompleted);
+
+            backward_backgroundWorker.WorkerSupportsCancellation = true;
+            backward_backgroundWorker.WorkerReportsProgress = false;
+            backward_backgroundWorker.DoWork += new DoWorkEventHandler(backward_backgroundWorker_DoWork);
+            backward_backgroundWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(forwardbackward_workerCompleted);
 
             AddText(console, "Loading existing settings. . .\n");
         }
@@ -149,7 +155,7 @@ namespace iTunes_Android_Sync
             }
         }
 
-        private void forward_backgroundWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        private void forwardbackward_workerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             if ((e.Cancelled == true))
             {
@@ -165,7 +171,42 @@ namespace iTunes_Android_Sync
             {
                 AddText(console, "Sync done!");
                 //Re-enable buttons after task is done.
-                fSync_button.Enabled = true; //bSync_button.Enabled = true;
+                fSync_button.Enabled = true; bSync_button.Enabled = true;
+            }
+        }
+
+        private void backward_backgroundWorker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            BackgroundWorker worker = sender as BackgroundWorker;
+            try
+            {
+                ////Check if user wants their desktop's working directory to be erased completely -- May not want this... (Will delete iTunes Directory as well)
+                //if (cleanSync_checkbox.Checked == true && (Properties.Settings.Default.PCDirectory != "" || Properties.Settings.Default.PCDirectory.Length == 0))
+                //{
+                //    AddText(console, "Cleaning your phone's working directory at " + Properties.Settings.Default.PCDirectory);
+                //    cmd(("adb rm -f " + Properties.Settings.Default.PCDirectory), false);
+                //}
+
+                //Create list of files in local and remote directories
+                if (cmd("dir \"" + Properties.Settings.Default.PCDirectory + "\" /s/b > srclist.txt", false) == 0) throw new System.Exception();
+                IncreaseProgress(progressBar, 4);
+                if (cmd("adb -d shell find " + Properties.Settings.Default.AndroidDirectory + " -type f -print > destlist.txt", false) == 0) throw new System.Exception();
+                IncreaseProgress(progressBar, 4);
+
+                //Compare src and dest to get files needed to be added/removed
+                media.diff("destlist.txt", "srclist.txt", filesNeeded, filesUnneeded);
+                IncreaseProgress(progressBar, 10);
+
+                AddText(console, "\nActions needed to be taken: ");
+                AddText(console, filesNeeded.Count + " number of files needed to be added.");
+                AddText(console, filesUnneeded.Count + " number of files needed to be removed.\n");
+
+                addFiles(false);
+                removeFiles(false);
+            }
+            catch (Exception objException)
+            {
+                AddText(console, "\n" + objException.ToString());
             }
         }
 
@@ -212,11 +253,25 @@ namespace iTunes_Android_Sync
             AddText(console, "Commencing backward sync.\nYour Android files will now be sync'ed onto your computer.\n\n");
             IncreaseProgress(progressBar, 1);
 
-            //While running, disable all sync buttons.
-            fSync_button.Enabled = false; bSync_button.Enabled = false;
+            if (paths.isDefault().Length > 0)
+            {
+                AddText(console, "Please change your default " + paths.isDefault() + " in the settings menu.");
+            }
+            else if (droidConnected()) //Make sure a valid Android device is connected.
+            {
+                //Log action into console.
+                AddText(console, "Commencing forward sync.\nYour computer files will now be sync'ed onto your Android device.\n");
+                IncreaseProgress(progressBar, 2);
 
-            //Re-enable buttons after task is done.
-            fSync_button.Enabled = true; bSync_button.Enabled = true;
+                //While running, disable all sync buttons.
+                fSync_button.Enabled = false; bSync_button.Enabled = false;
+
+                //Make sure background worker isn't busy then run relevant tasks.
+                if (!backward_backgroundWorker.IsBusy)
+                {
+                    backward_backgroundWorker.RunWorkerAsync();
+                }
+            }
         }
 
         private void toolTip1_Popup(object sender, PopupEventArgs e)
@@ -251,7 +306,15 @@ namespace iTunes_Android_Sync
                 System.Diagnostics.Process proc = new System.Diagnostics.Process();
                 proc.StartInfo = procStartInfo;
                 proc.Start();
-                proc.WaitForExit();
+                
+                string stdOutput, lastLine;
+                lastLine = "";
+                while ((stdOutput = proc.StandardOutput.ReadLine()) != null)
+                {
+                    lastLine = stdOutput;
+                }
+                AddText(console, lastLine);
+
                 // Get the output into a string
                 string result = proc.StandardOutput.ReadToEnd();
                 // Display the command output.
@@ -266,6 +329,8 @@ namespace iTunes_Android_Sync
                 {
                     if (result.Length > 1) AddText(console, result + "\n");
                 }
+                proc.Dispose();
+                
             }
             catch (Exception objException)
             {
@@ -321,19 +386,38 @@ namespace iTunes_Android_Sync
             if (toAndroid)
             {
                 System.IO.StreamWriter addFiles_bat = new System.IO.StreamWriter("addFiles.bat");
+
+                //Want to create the addfiles.bat file just in case the file push hangs and does not complete this later.
+                foreach(string element in filesNeeded)
+                {
+                    string addFileString = ("adb -d push \"" + Properties.Settings.Default.PCDirectory + element + "\" \"" + Properties.Settings.Default.AndroidDirectory + element + "\"").Replace("\\", "/");
+
+                    addFiles_bat.WriteLine(addFileString);
+
+                }
+                addFiles_bat.Close();
+
                 foreach (string element in filesNeeded)
                 {
                     string addFileString = ("adb -d push \"" + Properties.Settings.Default.PCDirectory + element + "\" \"" + Properties.Settings.Default.AndroidDirectory + element + "\"").Replace("\\", "/");
+
+                    cmd(addFileString, false);
+                    
+                }
+                IncreaseProgress(progressBar, 60);
+            }
+            else
+            {
+                System.IO.StreamWriter addFiles_bat = new System.IO.StreamWriter("addFiles.bat");
+                foreach (string element in filesNeeded)
+                {
+                    string addFileString = ("adb -d pull \"" + Properties.Settings.Default.AndroidDirectory + element + "\" \"" + Properties.Settings.Default.PCDirectory + element + "\"").Replace("\\", "/");
 
                     cmd(addFileString, false);
                     addFiles_bat.WriteLine(addFileString);
                 }
                 IncreaseProgress(progressBar, 60);
                 addFiles_bat.Close();
-            }
-            else
-            {
-
             }
         }
 
@@ -345,6 +429,19 @@ namespace iTunes_Android_Sync
                 foreach (string element in filesUnneeded)
                 {
                     string rmFileString = "adb -d shell rm -f \"" + media.validate(element) + "\"";
+
+                    cmd(rmFileString, false); //.Replace("\\","/")
+                    rmFiles_bat.WriteLine(rmFileString);
+                }
+                IncreaseProgress(progressBar, 20);
+                rmFiles_bat.Close();
+            }
+            else
+            {
+                System.IO.StreamWriter rmFiles_bat = new System.IO.StreamWriter("rmFiles.bat");
+                foreach (string element in filesUnneeded)
+                {
+                    string rmFileString = "rm -f \"" + media.validate(element) + "\"";
 
                     cmd(rmFileString, false); //.Replace("\\","/")
                     rmFiles_bat.WriteLine(rmFileString);
